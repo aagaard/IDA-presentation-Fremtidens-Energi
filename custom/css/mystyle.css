@@ -1,19 +1,19 @@
 body {
-    font-family: 'Times New Roman', serif;
+  font-family: 'Roboto';
 }
 .two-col > div:first-child {
-    width: 49%;
-    float: left;
+  width: 49%;
+  float: left;
 }
 .two-col > div:last-child {
-    width: 49%;
-    float: right;
+  width: 49%;
+  float: right;
 }
 .align-left,
 .align-left p,
 .align-left small,
 .align-left li {
-    text-align: left;
+  text-align: left;
 }
 .align-left h1,
 .align-left h2,
@@ -21,7 +21,7 @@ body {
 .align-left h4,
 .align-left h5,
 .align-left h6 {
-    text-align: center;
+  text-align: center;
 }
 .reveal h1,
 .reveal h2,
@@ -29,42 +29,64 @@ body {
 .reveal h4,
 .reveal h5,
 .reveal h6 {
-    margin-bottom: 0.4em;
-    font-family: 'Roboto Condensed', Impact, sans-serif;
+  margin-bottom: 0.4em;
+  font-family: 'Roboto Condensed', Impact, sans-serif;
+  line-height: 1.1em;
 }
 .reveal blockquote {
-    margin-bottom: 0.5em;
+  margin-bottom: 0.5em;
 }
 .reveal section img {
-    border: none;
-    box-shadow: none;
+  border: none;
+  box-shadow: none;
 }
 .reveal small {
-    line-height: 1.4em;
+  line-height: 1.4em;
 }
 .reveal small a {
-    vertical-align: baseline !important;
+  vertical-align: baseline !important;
+}
+.reveal > larger {
+  font-size: 1.2em;
+  line-height: 1.4em;
 }
 .reveal a:not(.image) {
-    line-height: 1.4em;
+  line-height: 1.4em;
 }
 .reveal pre {
-    width: 100%;
+  width: 100%;
 }
 .reveal xmp {
-    padding: 0.5em;
-    background: #3F3F3F;
-    color: #EEE;
+  padding: 0.5em;
+  background: #3F3F3F;
+  color: #EEE;
+}
+p.textbox {
+  margin-top: 1.2em;
+  padding: 10px important!;
+  background-color: #eeeeee;
+  border: #dddddd 5px solid;
+  font-size: 1.3em;
+  line-height: 1.3em;
+  border-radius: 15px;
+  box-shadow: 10px 10px 5px #888;
 }
 .slides > section:first-child footer {
-    margin-top: 50px;
+  margin-top: 50px;
 }
 .slides ul.small {
-    font-size: 0.6em;
-    line-height: 1.5em;
+  font-size: 0.6em;
+  line-height: 1.5em;
 }
 .slides ul li {
-    margin-bottom: 0.4em;
+  margin-bottom: 0.4em;
+}
+#reference {
+  font-size: 0.6em;
+  position: fixed;
+  bottom: 0;
+  right: 0;
+  text-align: left;
 }
 
 span.clouditem {
@@ -72,3 +94,4 @@ span.clouditem {
   padding-right: 0.15em;
   line-height: 90%;
 }
+

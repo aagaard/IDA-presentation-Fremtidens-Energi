@@ -17,10 +17,11 @@
     <link rel="stylesheet" href="custom/css/bootstrap.css">
     <link rel="stylesheet" href="custom/css/mystyle.css">
 
+    
+
     <!-- favicon and fonts -->
     <link href="img/favicon.png" rel="shortcut icon" />
-
-    <link href='http://fonts.googleapis.com/css?family=Roboto+Condensed' rel='stylesheet' type='text/css'>
+    <link href='http://fonts.googleapis.com/css?family=Roboto:400,500,700,900,400italic,500italic|Roboto+Condensed:400italic,400,700' rel='stylesheet' type='text/css'>
     
     <title>Privatlivets håndhævelse i fremtidens energisystem med mange personlige data</title>
     
@@ -38,67 +39,280 @@
   <body>
     <div class="reveal">
       <div class="slides">
-        
-        <!-- Frontpage slide-->
+
         <section>
-		  <h1>Cybersikkerhed i Smart Grid</h1>
+		  <h1>Privacy i <br />Smart Grid</h1>
 		  <h2>
             Privatlivets håndhævelse i fremtidens energisystem med mange
 		    personlige data
           </h2>
-		</section>
-
+          <aside class="notes">
+            <ul>
+              <li><u>Kom med historie</u></li>
+              <li>Hvad vil du præsentere?</li>
+            </ul>
+          </aside>
+	    </section>        
+ 
+        
         <!-- Hvem er jeg -->
         <section>
           <section>
-          <h2>Hvem er jeg?</h2>
-          
-          <div class="row">
-            <div class="col-md-5">
+            <h2>Hvem er jeg?</h2>
+            
+            <div class="row">
+              <div class="col-md-5">
                 <img src="custom/img/about-me1.png" />
-            </div>
-            <div class="col-md-2" style="padding-top: 130px;">
+              </div>
+              <div class="col-md-2" style="padding-top: 130px;">
                 <img src="custom/img/about-me-me.png" />
+              </div>
+              <div class="col-md-5">
+                <p class="fragment">
+                  <img src="custom/img/about-me2.png" />
+                </p>
+              </div>
             </div>
-            <div class="col-md-5">
-              <p class="fragment">
-                <img src="custom/img/about-me2.png" />
+            <div class="fragment">
+              <p>
+                <span style="font-family: 'Roboto Condensed'">smik@eng.au.dk</span>
+              </p>
+              <p>
+                <img style="vertical-align: middle;" width="50px" src="custom/img/twitter_logo_blue.png"/>
+                <span style="font-family: 'Roboto Condensed'">@aamikkelsen</span>
               </p>
             </div>
-          </div>
-          <p class="fragment">
-            <a href="smik@eng.au.dk">smik@eng.au.dk</a>
-          </p>
+          </section>
+        </section>
+        
+        <section>
+          <section>
+            <div style="display: block; vertical-align: middle;">
+              <h2>
+                <img style="vertical-align:middle;" width="90" src="custom/img/eu.jpg"/>
+                <span style="display:inline-block">SmartHG</span>
+              </h2>
+            </div>
+            <p style="font-style: italic;">
+              Energy Demand Aware Open Service for <br />Smart Grid Intelligent Automation
+            </p>
+            <ul style="margin-top: 1em;">
+              <li>Konsortium: 11 partner fra 6 forskellige lande</li>
+            </ul><p></p>
+            <img src="custom/img/consortium.png" align="top">
+          </section>
+          <section>
+            <div style="display: block; vertical-align: middle;">
+              <h2>
+                <img style="vertical-align:middle;" width="90" src="custom/img/eu.jpg"/>
+                <span style="display:inline-block">SmartHG</span>
+              </h2>
+            </div>
+            <p class="align-left" style="font-size: 1.2em; font-weight: bold">Målsætning:</p>
+            <ul>
+              <li>At minimere <i>energiforbrug</i> og <i>omkostninger</i> i det enkelte hjem</li>
+              <li>At hjælpe netværksoperatører (distributører af el) med at <i>optimere</i> driften af elnettet</li>
+            </ul>
+            <div class="fragment">
+              <p class="align-left" style="font-size: 1.2em; font-weight: bold">Vores løsning indbefatter:</p>
+              <ul>
+                <li>Software til forbrugerne: Mindre forbrug, "optimeret" forbrug </li>
+                <li>Software til netværksoperatørerne: Analyse af forbrug, styring af elnettet</li>
+                <li>Åbent system: Generer nyt market</li>
+              </ul>
+            </div>
           </section>
         </section>
 
         <section>
-          <div style="display: block; vertical-align: middle;">
-            <h2>
-              <img style="vertical-align:middle;" width="90" src="custom/img/eu.jpg"/>
-              <span style="display:inline-block">SmartHG</span>
-            </h2>
-          </div>
-          <p style="font-style: italic;">
-            Energy Demand Aware Open Service for <br />Smart Grid Intelligent Automation
-          </p>
-          <ul style="margin-top: 1em;">
-            <li>Konsortium: 11 partner fra 6 forskellige lande</li>
-          </ul><p></p>
-          <img src="custom/img/consortium.png" align="top">
+          <section>            
+            <h2>Det STORE spørgsmål</h2>
+            <p class="textbox">
+              Hvordan bygger vi et system der tillader at
+              distributionssystemoperatøren får indsigt i hjemmets elforbrug
+              uden at privatlivet af brugerne kompromitteres?
+            </p>
+            <aside class="notes" data-markdown>
+              * Formålet for DSO'en er at kunne bedre forudsige forbruget.
+            </aside>
+          </section>
+
+          
+          <section data-transition="none">
+            <h2>Afgrænsning</h2>
+            <img src="custom/img/actors.png" style=""/>
+          </section>
+          <section data-transition="none">
+            <h2>Afgrænsning</h2>
+            <img src="custom/img/actors_highlight.png" style=""/>
+          </section>
         </section>
-	    <section>Hvorfor er privatlivetshåndhævelse vigtigt at have fokus på i smart grid sammenhæng</section>
+
+        <section class="slides">
+          <h2>Hvad er beskyttelsen af privatlivet?</h2>
+          <ul>
+            <li>Retten til at være alene</li>
+            <li></li>
+          </ul>
+          
+          <div id="reference"><u>Referencer:</u>
+            Nissenbaum, H., Privacy As Contextual Integrity (2004), Solove, D. , A taxonomy of privacy (2006)
+          </div>
+          
+          <aside class="notes">
+            <p><b>Wiki:</b> Privatlivets fred er evnen for enkeltpersoner,
+              grupper eller institutioner til selv at bestemme, hvornår hvordan
+              og i hvilket omfang oplysninger om dem formidles til andre.</p>
+          </aside>
+        </section>
+
         <section>
-          <h3>Joke</h3>
-          <img src="custom/img/privacy-vs-really_want_that_service.png" />
+          <section>
+            <h2>Der er stigende fokus på beskyttelse af personlige data</h2>
+            <aside class="notes">
+              <ul>
+                <li>Med de mange tilfælde af krænkelser af privatlivet: </li>
+                <ul>
+                  <li>Udlandet: NSA - Showden, masseovervågning</li>
+                  <li>Indland: Se og Hør skandalen (foretrækker Nets skandalen)</li>
+                  <li>Dårlig håndteringen af CPR numre (900.000 offentliggjorte CPR-numre i Økonomi- og Indenrigsministeriet)</li>
+                  <ul>
+                    <li>Robinsonsliste blev offentliggjort</li>                    
+                  </ul>
+                </ul>
+                <li>Modstand mod udbreddelsen af Smart Grid</li>
+              </ul>
+              <p><b>Hvad er der galt her?</b></p>
+              <ul>
+                <li>Brugeren får godt nok mulighed at se, hvad for nogle data der tilgås</li>
+                <li><u>Men</u> ikke hvad formålet med dataindsamlingen er</li>
+                <li>Ingen granularitet af tilvalg</li>
+                <li>Man er tvunget til netop at bruge dette system ellers kan man
+                  ikke opnå den ønsket funktionalitet</li>
+              </ul>
+            </aside>
+          </section>
+          <section>
+            <h2>Men ...</h2>
+            <img style="margin-top: -20px; height:auto;"
+                 src="custom/img/privacy-vs-really_want_that_service.png" />
+          </section>          
+        </section>
+
+ 
+	    <section>
+          <section>
+            <h2>Hvorfor er beskyttelsen af privatlivet vigtigt i smart grid sammenhæng?
+            </h2>
+          </section>
+          <section>
+            <h3>Effektbelastningen i en lejlighed</h3>
+            <img style="padding-right: 2em; max-height: 80%" src="./custom/img/power-profile-of-home.png" />
+            <div id="reference">Reference: Fan et al. (2013)</div>
+            <aside class="notes">
+              <div class="text-left">
+                <p>Effektprofil for en 1 værelseslejlighed med 30-sekundsopløsning</p>
+                <p>Afslører:</p>
+                <ul>
+                  <li><b>Mængden</b> af elektricitet huset forbruger</li>
+                  <li><b>Typer</b> af husholdningsapparter hjemmet indeholder</li>
+                  <li><b>Sekvensen</b> af hvornår apparaterne bliver brugt</li>
+                  <li><b>Tidspunkterne</b> hvornår apparaterne bliver brugt</li>
+                  <li>Fraværet af forbrugsmønstre</li>
+                  <ul>
+                    <li>Ingen afvigelse af baseline-forbrug: Der er måske ingen hjemme?</li>
+                  </ul>
+                </ul>
+              </div>
+            </aside>
+          </section>
+          <section>
+            <h2>Hvem har interesse i disse forbrugsdata?</h2>
+            <ul>
+              <li class="fragment">System operatørerne</li>
+              <li class="fragment">Indbrudstyve</li>
+              <li class="fragment">"Nysgerrige naboer"</li>
+              <li class="fragment">Forsikringsselskaber&nbsp; &nbsp;</li>
+              <li class="fragment">Google<span class="fragment">... (eller Apple)</span></li>
+              <li class="fragment">...</li>
+            </ul>
+            <aside class="notes">
+              <b>Fjendebilledet (adversary model)</b>
+            </aside>
+          </section>
+        </section>
+       
+        
+        <section class="slides">
+          <h2>Hvad kan gøres for at forbedre håndhævelsen privatlivet?</h2>
+          <ul>
+            <li class="fragment">Lad forbrugeren vælge niveauet af "privathed"</li>            
+            <li class="fragment">Definer formålet med dataindsamlingen for slutbrugerne</li>
+            <li class="fragment">Minimere indhentning af personlige information</li>
+            <li class="fragment">Lav systemet åben</li>
+            <li class="fragment">Sikring af privatlivet skal ikke komme på
+              bekostning af funktionaliteten</li>
+            <li class="fragment">Lav end-to-end sikkerhed i systemet</li>
+          </ul>
+          <p id="reference"><u>Referencer</u>: Privacy-by-Design (PbD), &nbsp;&nbsp;
+
+          </p>
+          <aside class="notes">
+            <ul>
+              <li>Giv folk værktøjer til at styre deres information</li>
+              <li>Folk har forskellige behov</li>
+              <ul>
+                <li>Forskellige nøgler til forskellige kontekster</li>
+                <li>Læger, kollegaer, venner, familie</li>
+                <li>Forbruger, i mellem serviceudbyderne, mellem DSOer</li>
+              </ul>
+              <li>Kort sagt: Et system skal kunne inkorporere privatlivets fred
+                i en helhedsorienteret løsning ⇒ arkitekturer </li>
+            </ul>
+          </aside>
+        </section>
+        
+        <section>
+          <section>          
+            <h2>Arkitekturer til datahåndtering</h2>
+          </section>
+
+          <section>
+            <h2>Model 1: Tingene's Internet</h2>
+            <img src="custom/img/system_model1.png"/>
+          </section>
+          <section>
+            <h2>Model 2: Privat sky</h2>
+            <img src="custom/img/system_model2.png"/>
+          </section>
+          <section>
+            <h2>Model 3: Hybrid</h2>
+            <img src="custom/img/system_model3.png"/>
+          </section>
+        </section>
+
+        <section>
+          <h2>Opsummering</h2>
+          <ul>
+            
+            <li>Behov er forskelligt - også et i Smart Grid</li>
+            <li>Data skabes til evighed</li>
+          </ul>
+          <aside class="notes">
+            <ul>
+              <li>Data evigt: Gevinst vs. trussel</li>
+              <ul>
+                <li>Når først dataene er skabt kan de ikke tages tilbage igen</li>
+              </ul>              
+            </ul>
+          </aside>
         </section>
       </div>
     </div>
-
+    
     <script src="lib/js/head.min.js"></script>
 	<script src="js/reveal.min.js"></script>
 	<script>
-
 	 // Full list of configuration options available here:
 	// https://github.com/hakimel/reveal.js#configuration
 	 Reveal.initialize({
@@ -108,11 +322,7 @@
 	   center: true,
 
        // Factor of the display size that should remain empty around the content
-       margin: 0.1,
-
-       // Bounds for smallest/largest possible scale to apply to content
-       minScale: 0.2,
-       maxScale: 1.0,
+       margin: 0.05,
        
 	   theme: Reveal.getQueryHash().theme, // available themes are in /css/theme
 	   transition: Reveal.getQueryHash().transition || 'default', // default/cube/page/concave/zoom/linear/fade/none
@@ -121,6 +331,10 @@
          mathjax: 'http://cdn.mathjax.org/mathjax/latest/MathJax.js',
          config: 'TeX-AMS_HTML-full'  // See http://docs.mathjax.org/en/latest/config-files.html
        },
+
+       // Hides the address bar on mobile devices
+       hideAddressBar: true,
+
 	   // Parallax scrolling
 	   // parallaxBackgroundImage: 'https://s3.amazonaws.com/hakim-static/reveal-js/reveal-parallax-1.jpg',
 	   // parallaxBackgroundSize: '2100px 900px',
@@ -129,8 +343,10 @@
 	   dependencies: [
          { src: 'plugin/math/math.js', async: true },
 		 { src: 'lib/js/classList.js', condition: function() { return !document.body.classList; } },
-		 { src: 'plugin/markdown/marked.js', condition: function() { return !!document.querySelector( '[data-markdown]' ); } },
-		 { src: 'plugin/markdown/markdown.js', condition: function() { return !!document.querySelector( '[data-markdown]' ); } },
+         // Interpret Markdown in <section> elements
+         { src: 'plugin/markdown/marked.js', condition: function() { return !!document.querySelector( '[data-markdown]' ); } },
+         { src: 'plugin/markdown/markdown.js', condition: function() { return !!document.querySelector( '[data-markdown]' ); } },
+
 		 { src: 'plugin/highlight/highlight.js', async: true, callback: function() { hljs.initHighlightingOnLoad(); } },
 		 { src: 'plugin/zoom-js/zoom.js', async: true, condition: function() { return !!document.body.classList; } },
          { src: 'socket.io/socket.io.js', async: true },
@@ -139,7 +355,14 @@
 		 { src: 'plugin/notes/notes.js', async: true, condition: function() { return !!document.body.classList; } }
 	   ]
 	 });
-
+     /* window.addEventListener("mousedown", handleClick, false);
+        window.addEventListener("contextmenu", function(e) { e.preventDefault(); }, false);
+        
+        function handleClick(e) {
+	    e.preventDefault();
+	    if(e.button === 0) Reveal.next(); 
+	    if(e.button === 2) Reveal.prev(); 
+        } */
 	</script>
   </body>
 </html>

@@ -1,0 +1,1911 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<!-- Created with Inkscape (http://www.inkscape.org/) -->
+
+<svg
+   xmlns:dc="http://purl.org/dc/elements/1.1/"
+   xmlns:cc="http://creativecommons.org/ns#"
+   xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#"
+   xmlns:svg="http://www.w3.org/2000/svg"
+   xmlns="http://www.w3.org/2000/svg"
+   xmlns:sodipodi="http://sodipodi.sourceforge.net/DTD/sodipodi-0.dtd"
+   xmlns:inkscape="http://www.inkscape.org/namespaces/inkscape"
+   inkscape:export-ydpi="150"
+   inkscape:export-xdpi="150"
+   inkscape:export-filename="/home/smik/Work/phd/research/my-publications/pub1_privacy-preserving-soa-for-the-energy-internet/figures/system-models.png"
+   sodipodi:docname="system-models.svg"
+   inkscape:version="0.48+devel r"
+   version="1.1"
+   id="svg2"
+   height="1265.36"
+   width="744.09448">
+  <sodipodi:namedview
+     id="base"
+     pagecolor="#ffffff"
+     bordercolor="#666666"
+     borderopacity="1.0"
+     inkscape:pageopacity="1"
+     inkscape:pageshadow="2"
+     inkscape:zoom="1"
+     inkscape:cx="348.37808"
+     inkscape:cy="1091.1624"
+     inkscape:document-units="px"
+     inkscape:current-layer="layer1"
+     showgrid="false"
+     inkscape:window-width="1879"
+     inkscape:window-height="1056"
+     inkscape:window-x="1407"
+     inkscape:window-y="24"
+     inkscape:window-maximized="1" />
+  <defs
+     id="defs4">
+    <marker
+       style="overflow:visible"
+       id="Arrow1Send"
+       refX="0"
+       refY="0"
+       orient="auto"
+       inkscape:stockid="Arrow1Send">
+      <path
+         inkscape:connector-curvature="0"
+         transform="matrix(-0.2,0,0,-0.2,-1.2,0)"
+         style="fill-rule:evenodd;stroke:#000000;stroke-width:1pt"
+         d="M 0,0 5,-5 -12.5,0 5,5 0,0 z"
+         id="path4271" />
+    </marker>
+    <marker
+       style="overflow:visible"
+       id="Arrow1Sstart"
+       refX="0"
+       refY="0"
+       orient="auto"
+       inkscape:stockid="Arrow1Sstart">
+      <path
+         inkscape:connector-curvature="0"
+         transform="matrix(0.2,0,0,0.2,1.2,0)"
+         style="fill-rule:evenodd;stroke:#000000;stroke-width:1pt"
+         d="M 0,0 5,-5 -12.5,0 5,5 0,0 z"
+         id="path4268" />
+    </marker>
+    <marker
+       style="overflow:visible"
+       id="Arrow1Mend"
+       refX="0"
+       refY="0"
+       orient="auto"
+       inkscape:stockid="Arrow1Mend">
+      <path
+         inkscape:connector-curvature="0"
+         transform="matrix(-0.4,0,0,-0.4,-4,0)"
+         style="fill-rule:evenodd;stroke:#000000;stroke-width:1pt"
+         d="M 0,0 5,-5 -12.5,0 5,5 0,0 z"
+         id="path4265" />
+    </marker>
+    <marker
+       style="overflow:visible"
+       id="Arrow1Mstart"
+       refX="0"
+       refY="0"
+       orient="auto"
+       inkscape:stockid="Arrow1Mstart">
+      <path
+         inkscape:connector-curvature="0"
+         transform="matrix(0.4,0,0,0.4,4,0)"
+         style="fill-rule:evenodd;stroke:#000000;stroke-width:1pt"
+         d="M 0,0 5,-5 -12.5,0 5,5 0,0 z"
+         id="path4262" />
+    </marker>
+    <marker
+       style="overflow:visible"
+       id="Arrow1Sstart-8"
+       refX="0"
+       refY="0"
+       orient="auto"
+       inkscape:stockid="Arrow1Sstart">
+      <path
+         transform="matrix(0.2,0,0,0.2,1.2,0)"
+         style="fill-rule:evenodd;stroke:#000000;stroke-width:1pt"
+         d="M 0,0 5,-5 -12.5,0 5,5 0,0 z"
+         id="path4268-7"
+         inkscape:connector-curvature="0" />
+    </marker>
+    <marker
+       style="overflow:visible"
+       id="Arrow1Send-9"
+       refX="0"
+       refY="0"
+       orient="auto"
+       inkscape:stockid="Arrow1Send">
+      <path
+         transform="matrix(-0.2,0,0,-0.2,-1.2,0)"
+         style="fill-rule:evenodd;stroke:#000000;stroke-width:1pt"
+         d="M 0,0 5,-5 -12.5,0 5,5 0,0 z"
+         id="path4271-2"
+         inkscape:connector-curvature="0" />
+    </marker>
+    <marker
+       style="overflow:visible"
+       id="Arrow1Sstart-2"
+       refX="0"
+       refY="0"
+       orient="auto"
+       inkscape:stockid="Arrow1Sstart">
+      <path
+         transform="matrix(0.2,0,0,0.2,1.2,0)"
+         style="fill-rule:evenodd;stroke:#000000;stroke-width:1pt"
+         d="M 0,0 5,-5 -12.5,0 5,5 0,0 z"
+         id="path4268-78"
+         inkscape:connector-curvature="0" />
+    </marker>
+    <marker
+       style="overflow:visible"
+       id="Arrow1Send-8"
+       refX="0"
+       refY="0"
+       orient="auto"
+       inkscape:stockid="Arrow1Send">
+      <path
+         transform="matrix(-0.2,0,0,-0.2,-1.2,0)"
+         style="fill-rule:evenodd;stroke:#000000;stroke-width:1pt"
+         d="M 0,0 5,-5 -12.5,0 5,5 0,0 z"
+         id="path4271-6"
+         inkscape:connector-curvature="0" />
+    </marker>
+    <marker
+       style="overflow:visible"
+       id="Arrow1Sstart-6"
+       refX="0"
+       refY="0"
+       orient="auto"
+       inkscape:stockid="Arrow1Sstart">
+      <path
+         transform="matrix(0.2,0,0,0.2,1.2,0)"
+         style="fill-rule:evenodd;stroke:#000000;stroke-width:1pt"
+         d="M 0,0 5,-5 -12.5,0 5,5 0,0 z"
+         id="path4268-74"
+         inkscape:connector-curvature="0" />
+    </marker>
+    <marker
+       style="overflow:visible"
+       id="Arrow1Send-7"
+       refX="0"
+       refY="0"
+       orient="auto"
+       inkscape:stockid="Arrow1Send">
+      <path
+         transform="matrix(-0.2,0,0,-0.2,-1.2,0)"
+         style="fill-rule:evenodd;stroke:#000000;stroke-width:1pt"
+         d="M 0,0 5,-5 -12.5,0 5,5 0,0 z"
+         id="path4271-4"
+         inkscape:connector-curvature="0" />
+    </marker>
+    <marker
+       style="overflow:visible"
+       id="Arrow1Sstart-5"
+       refX="0"
+       refY="0"
+       orient="auto"
+       inkscape:stockid="Arrow1Sstart">
+      <path
+         transform="matrix(0.2,0,0,0.2,1.2,0)"
+         style="fill-rule:evenodd;stroke:#000000;stroke-width:1pt"
+         d="M 0,0 5,-5 -12.5,0 5,5 0,0 z"
+         id="path4268-9"
+         inkscape:connector-curvature="0" />
+    </marker>
+    <marker
+       style="overflow:visible"
+       id="Arrow1Send-5"
+       refX="0"
+       refY="0"
+       orient="auto"
+       inkscape:stockid="Arrow1Send">
+      <path
+         transform="matrix(-0.2,0,0,-0.2,-1.2,0)"
+         style="fill-rule:evenodd;stroke:#000000;stroke-width:1pt"
+         d="M 0,0 5,-5 -12.5,0 5,5 0,0 z"
+         id="path4271-5"
+         inkscape:connector-curvature="0" />
+    </marker>
+    <marker
+       style="overflow:visible"
+       id="marker6602"
+       refX="0"
+       refY="0"
+       orient="auto"
+       inkscape:stockid="Arrow1Sstart">
+      <path
+         transform="matrix(0.2,0,0,0.2,1.2,0)"
+         style="fill-rule:evenodd;stroke:#000000;stroke-width:1pt"
+         d="M 0,0 5,-5 -12.5,0 5,5 0,0 z"
+         id="path6604"
+         inkscape:connector-curvature="0" />
+    </marker>
+    <marker
+       style="overflow:visible"
+       id="marker6606"
+       refX="0"
+       refY="0"
+       orient="auto"
+       inkscape:stockid="Arrow1Send">
+      <path
+         transform="matrix(-0.2,0,0,-0.2,-1.2,0)"
+         style="fill-rule:evenodd;stroke:#000000;stroke-width:1pt"
+         d="M 0,0 5,-5 -12.5,0 5,5 0,0 z"
+         id="path6608"
+         inkscape:connector-curvature="0" />
+    </marker>
+    <marker
+       style="overflow:visible"
+       id="Arrow1Sstart-83"
+       refX="0"
+       refY="0"
+       orient="auto"
+       inkscape:stockid="Arrow1Sstart">
+      <path
+         inkscape:connector-curvature="0"
+         transform="matrix(0.2,0,0,0.2,1.2,0)"
+         style="fill-rule:evenodd;stroke:#000000;stroke-width:1pt"
+         d="M 0,0 5,-5 -12.5,0 5,5 0,0 z"
+         id="path4268-76" />
+    </marker>
+    <marker
+       style="overflow:visible"
+       id="Arrow1Send-0"
+       refX="0"
+       refY="0"
+       orient="auto"
+       inkscape:stockid="Arrow1Send">
+      <path
+         inkscape:connector-curvature="0"
+         transform="matrix(-0.2,0,0,-0.2,-1.2,0)"
+         style="fill-rule:evenodd;stroke:#000000;stroke-width:1pt"
+         d="M 0,0 5,-5 -12.5,0 5,5 0,0 z"
+         id="path4271-28" />
+    </marker>
+    <marker
+       style="overflow:visible"
+       id="Arrow1Sstart-4"
+       refX="0"
+       refY="0"
+       orient="auto"
+       inkscape:stockid="Arrow1Sstart">
+      <path
+         inkscape:connector-curvature="0"
+         transform="matrix(0.2,0,0,0.2,1.2,0)"
+         style="fill-rule:evenodd;stroke:#000000;stroke-width:1pt"
+         d="M 0,0 5,-5 -12.5,0 5,5 0,0 z"
+         id="path4268-92" />
+    </marker>
+    <marker
+       style="overflow:visible"
+       id="Arrow1Send-76"
+       refX="0"
+       refY="0"
+       orient="auto"
+       inkscape:stockid="Arrow1Send">
+      <path
+         inkscape:connector-curvature="0"
+         transform="matrix(-0.2,0,0,-0.2,-1.2,0)"
+         style="fill-rule:evenodd;stroke:#000000;stroke-width:1pt"
+         d="M 0,0 5,-5 -12.5,0 5,5 0,0 z"
+         id="path4271-1" />
+    </marker>
+  </defs>
+  <metadata
+     id="metadata7">
+    <rdf:RDF>
+      <cc:Work
+         rdf:about="">
+        <dc:format>image/svg+xml</dc:format>
+        <dc:type
+           rdf:resource="http://purl.org/dc/dcmitype/StillImage" />
+        <dc:title></dc:title>
+      </cc:Work>
+    </rdf:RDF>
+  </metadata>
+  <g
+     transform="translate(0,212.99803)"
+     id="layer1"
+     inkscape:groupmode="layer"
+     inkscape:label="Layer 1">
+    <rect
+       ry="0"
+       rx="0"
+       y="-111.63806"
+       x="247"
+       height="260"
+       width="196"
+       id="rect9245"
+       style="color:#000000;fill:#f0f0f0;fill-opacity:1;fill-rule:nonzero;stroke:none;stroke-width:1.99999976;marker:none;visibility:visible;display:inline;overflow:visible;enable-background:accumulate" />
+    <flowRoot
+       inkscape:export-ydpi="100"
+       inkscape:export-xdpi="100"
+       inkscape:export-filename="/home/smik/Work/phd/research/my-publications/pub1_privacy-preserving-soa-for-the-energy-internet/figures/sm-hybrid.png"
+       xml:space="preserve"
+       id="flowRoot9247"
+       style="font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;font-size:20px;line-height:125%;font-family:'Liberation Sans';-inkscape-font-specification:'Liberation Sans';text-align:start;letter-spacing:0px;word-spacing:0px;writing-mode:lr-tb;text-anchor:start;fill:#000000;fill-opacity:1;stroke:none"
+       transform="translate(208.38273,-168.6009)"><flowRegion
+         id="flowRegion9249"><rect
+           id="rect9251"
+           width="107.48022"
+           height="45.254829"
+           x="86.974136"
+           y="59.58427"
+           style="font-size:20px" /></flowRegion><flowPara
+         style="font-size:20px;text-align:center;text-anchor:middle"
+         id="flowPara9253">Skyen</flowPara></flowRoot>    <path
+       inkscape:export-ydpi="100"
+       inkscape:export-xdpi="100"
+       inkscape:export-filename="/home/smik/Work/phd/research/my-publications/pub1_privacy-preserving-soa-for-the-energy-internet/figures/sm-pure-iot.png"
+       sodipodi:nodetypes="scscscsscsscscsscscs"
+       inkscape:connector-curvature="0"
+       id="path3905"
+       d="m 327.28933,-34.377341 c -16.19053,0 -29.61843,8.618511 -32.10421,19.907635 -14.31508,4.141872 -24.52343,14.908892 -24.52343,27.487367 0,7.426681 3.54895,14.18027 9.40749,19.34134 -9.29454,3.896849 -15.25292,9.865219 -15.25292,16.553409 0,10.03962 13.4068,18.42096 31.41919,20.64819 -0.001,0.087 0,0.17415 0,0.26137 0,12.12543 18.81035,21.95505 42.01407,21.95505 1.4194,0 2.81818,-0.0589 4.2014,-0.13056 6.26279,3.95446 14.82132,6.40355 24.29508,6.40355 19.1683,0 34.70727,-9.98562 34.70727,-22.30354 0,-0.74065 -0.0728,-1.49951 -0.18275,-2.22164 13.654,-1.21307 24.29505,-11.45152 24.29505,-23.91532 0,-4.92476 -1.66512,-9.51744 -4.52107,-13.32985 9.58264,-3.967909 16.21198,-12.240709 16.21198,-21.867969 0,-13.47271 -12.92191,-24.394506 -28.86186,-24.394506 -1.10867,0 -2.21187,0.02781 -3.28803,0.130707 -0.3865,-13.598599 -14.8005,-24.525157 -32.51523,-24.525157 -8.68296,0 -16.54527,2.603215 -22.37707,6.882708 -5.88007,-4.266854 -13.97186,-6.882708 -22.92507,-6.882708 z"
+       style="color:#000000;fill:#ffffff;fill-opacity:1;fill-rule:nonzero;stroke:#000000;stroke-width:2.15336704;stroke-linecap:round;stroke-linejoin:miter;stroke-miterlimit:4;stroke-opacity:1;stroke-dasharray:none;stroke-dashoffset:0;marker:none;visibility:visible;display:inline;overflow:visible;enable-background:accumulate" />
+    <flowRoot
+       style="font-size:16px;font-family:Liberation Sans;writing-mode:lr-tb;fill-opacity:1;fill:#000000;letter-spacing:0px;text-anchor:start;line-height:125%;word-spacing:0px;stroke:none;font-stretch:normal;font-variant:normal;-inkscape-font-specification:Liberation Sans;font-weight:normal;font-style:normal;text-align:start"
+       id="flowRoot4097"
+       xml:space="preserve"><flowRegion
+         id="flowRegion4099"><rect
+           y="328.99194"
+           x="237.58788"
+           height="27.577164"
+           width="103.23759"
+           id="rect4101" /></flowRegion><flowPara
+         id="flowPara4103" /></flowRoot>    <rect
+       ry="0"
+       rx="0"
+       y="284.36194"
+       x="37.000004"
+       height="260"
+       width="196"
+       id="rect8415-9"
+       style="color:#000000;fill:#f0f0f0;fill-opacity:1;fill-rule:nonzero;stroke:none;stroke-width:1.99999976;marker:none;visibility:visible;display:inline;overflow:visible;enable-background:accumulate" />
+    <rect
+       ry="0"
+       rx="0"
+       y="286.36194"
+       x="247"
+       height="260"
+       width="196"
+       id="rect8415-3-6"
+       style="color:#000000;fill:#f0f0f0;fill-opacity:1;fill-rule:nonzero;stroke:none;stroke-width:1.99999976;marker:none;visibility:visible;display:inline;overflow:visible;enable-background:accumulate" />
+    <flowRoot
+       inkscape:export-ydpi="100"
+       inkscape:export-xdpi="100"
+       inkscape:export-filename="/home/smik/Work/phd/research/my-publications/pub1_privacy-preserving-soa-for-the-energy-internet/figures/sm-hybrid.png"
+       transform="translate(-58.402436,227.4391)"
+       style="font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;font-size:20px;line-height:125%;font-family:'Liberation Sans';-inkscape-font-specification:'Liberation Sans';text-align:start;letter-spacing:0px;word-spacing:0px;writing-mode:lr-tb;text-anchor:start;fill:#000000;fill-opacity:1;stroke:none"
+       id="flowRoot4123-2-8-3"
+       xml:space="preserve"><flowRegion
+         id="flowRegion4125-7-1-0"><rect
+           style="font-size:20px"
+           y="59.58427"
+           x="86.974136"
+           height="55.204578"
+           width="219.27058"
+           id="rect4127-0-4-9" /></flowRegion><flowPara
+         id="flowPara7208-0"
+         style="font-weight:normal;font-size:20px;-inkscape-font-specification:'Liberation Sans';text-align:center;text-anchor:middle">Hjemmet</flowPara></flowRoot>    <flowRoot
+       inkscape:export-ydpi="100"
+       inkscape:export-xdpi="100"
+       inkscape:export-filename="/home/smik/Work/phd/research/my-publications/pub1_privacy-preserving-soa-for-the-energy-internet/figures/sm-hybrid.png"
+       xml:space="preserve"
+       id="flowRoot4131-3-8-9"
+       style="font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;font-size:20px;line-height:125%;font-family:'Liberation Sans';-inkscape-font-specification:'Liberation Sans';text-align:start;letter-spacing:0px;word-spacing:0px;writing-mode:lr-tb;text-anchor:start;fill:#000000;fill-opacity:1;stroke:none"
+       transform="translate(162.00968,227.4031)"><flowRegion
+         id="flowRegion4133-2-5-9"><rect
+           style="font-size:20px"
+           id="rect4135-0-0-5"
+           width="192.48021"
+           height="28.254826"
+           x="86.974136"
+           y="59.58427" /></flowRegion><flowPara
+         id="flowPara6832-8"
+         style="font-size:20px;text-align:center;text-anchor:middle">Skyen</flowPara></flowRoot>    <rect
+       style="color:#000000;fill:#f0f0f0;fill-opacity:1;fill-rule:nonzero;stroke:none;stroke-width:1.99999976;marker:none;visibility:visible;display:inline;overflow:visible;enable-background:accumulate"
+       id="rect8439-2"
+       width="196"
+       height="260"
+       x="457"
+       y="286.36194"
+       rx="0"
+       ry="0" />
+    <flowRoot
+       transform="translate(418.38273,227.4031)"
+       style="font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;font-size:20px;line-height:125%;font-family:'Liberation Sans';-inkscape-font-specification:'Liberation Sans';text-align:start;letter-spacing:0px;word-spacing:0px;writing-mode:lr-tb;text-anchor:start;fill:#000000;fill-opacity:1;stroke:none"
+       id="flowRoot6542-9-7"
+       xml:space="preserve"
+       inkscape:export-filename="/home/smik/Work/phd/research/my-publications/pub1_privacy-preserving-soa-for-the-energy-internet/figures/sm-hybrid.png"
+       inkscape:export-xdpi="100"
+       inkscape:export-ydpi="100"><flowRegion
+         id="flowRegion6544-2-5"><rect
+           style="font-size:20px"
+           y="59.58427"
+           x="86.974136"
+           height="45.254829"
+           width="107.48022"
+           id="rect6546-3-4" /></flowRegion><flowPara
+         id="flowPara6548-2-0"
+         style="font-size:20px;text-align:center;text-anchor:middle">Skyen</flowPara></flowRoot>    <path
+       inkscape:export-ydpi="100"
+       inkscape:export-xdpi="100"
+       inkscape:export-filename="/home/smik/Work/phd/research/my-publications/pub1_privacy-preserving-soa-for-the-energy-internet/figures/sm-private-cloud.png"
+       sodipodi:nodetypes="scscscsscsscscsscscs"
+       inkscape:connector-curvature="0"
+       id="path3905-27"
+       d="m 319.48292,361.25154 c -13.56159,0 -24.80913,7.90262 -26.89129,18.25402 -11.99066,3.79783 -20.54143,13.67049 -20.54143,25.20415 0,6.80978 2.97269,13.00239 7.87995,17.73476 -7.78534,3.57316 -12.77623,9.04577 -12.77623,15.17841 0,9.20569 11.22988,16.89084 26.3175,18.93306 -9.5e-4,0.0798 0,0.15969 0,0.23966 0,11.11824 15.75601,20.13137 35.19203,20.13137 1.18893,0 2.36058,-0.054 3.5192,-0.11972 5.24587,3.62599 12.4147,5.87165 20.35016,5.87165 16.05584,0 29.07167,-9.15617 29.07167,-20.45091 0,-0.67913 -0.061,-1.37496 -0.15308,-2.0371 11.43694,-1.11231 20.35015,-10.50031 20.35015,-21.92881 0,-4.51569 -1.39475,-8.72688 -3.78696,-12.22262 8.02665,-3.63832 13.57955,-11.22394 13.57955,-20.05152 0,-12.35361 -10.82371,-22.36819 -24.17541,-22.36819 -0.92865,0 -1.85272,0.0255 -2.75414,0.11985 -0.32374,-12.46904 -12.39726,-22.48799 -27.23556,-22.48799 -7.27306,0 -13.85873,2.38698 -18.74359,6.311 -4.9253,-3.91243 -11.70318,-6.311 -19.20261,-6.311 z"
+       style="color:#000000;fill:#ffffff;fill-opacity:1;fill-rule:nonzero;stroke:#000000;stroke-width:2.15336704;stroke-linecap:round;stroke-linejoin:miter;stroke-miterlimit:4;stroke-opacity:1;stroke-dasharray:none;stroke-dashoffset:0;marker:none;visibility:visible;display:inline;overflow:visible;enable-background:accumulate" />
+    <path
+       inkscape:export-ydpi="100"
+       inkscape:export-xdpi="100"
+       inkscape:export-filename="/home/smik/Work/phd/research/my-publications/pub1_privacy-preserving-soa-for-the-energy-internet/figures/sm-private-cloud.png"
+       inkscape:connector-curvature="0"
+       id="path4250-6"
+       d="m 212.58116,426.32459 45.49641,0"
+       style="fill:none;stroke:#000000;stroke-width:3.65577483;stroke-linecap:butt;stroke-linejoin:miter;stroke-miterlimit:4;stroke-opacity:1;stroke-dasharray:none;marker-start:url(#Arrow1Sstart);marker-end:url(#Arrow1Send)" />
+    <path
+       inkscape:export-ydpi="100"
+       inkscape:export-xdpi="100"
+       inkscape:export-filename="/home/smik/Work/phd/research/my-publications/pub1_privacy-preserving-soa-for-the-energy-internet/figures/sm-private-cloud.png"
+       sodipodi:nodetypes="scscscsscsscscsscscs"
+       inkscape:connector-curvature="0"
+       id="path3905-27-1"
+       d="m 533.567,353.97173 c -16.2836,0 -29.7887,8.22476 -32.28878,18.99811 -14.39736,3.95264 -24.6644,14.22774 -24.6644,26.23155 0,7.08736 3.56934,13.5324 9.46156,18.45768 -9.34798,3.71882 -15.3406,9.41451 -15.3406,15.79713 0,9.58095 13.48388,17.57936 31.59982,19.70483 -0.001,0.0831 0,0.1662 0,0.24943 0,11.57144 18.91848,20.95198 42.25561,20.95198 1.42756,0 2.83438,-0.0562 4.22556,-0.12461 6.29879,3.77381 14.90652,6.111 24.43475,6.111 19.27848,0 34.9068,-9.5294 34.9068,-21.28455 0,-0.70681 -0.0733,-1.431 -0.18381,-2.12014 13.73251,-1.15764 24.43473,-10.92833 24.43473,-22.82269 0,-4.69975 -1.6747,-9.08261 -4.54705,-12.72084 9.63771,-3.78663 16.30516,-11.68146 16.30516,-20.86889 0,-12.85718 -12.99619,-23.27999 -29.02778,-23.27999 -1.11504,0 -2.22459,0.0265 -3.30694,0.12474 -0.38872,-12.97731 -14.88557,-23.40466 -32.70215,-23.40466 -8.73287,0 -16.64039,2.48428 -22.50571,6.56825 -5.91388,-4.07192 -14.0522,-6.56825 -23.05688,-6.56825 z"
+       style="color:#000000;fill:#ffffff;fill-opacity:1;fill-rule:nonzero;stroke:#000000;stroke-width:2.1533668;stroke-linecap:round;stroke-linejoin:miter;stroke-miterlimit:4;stroke-opacity:1;stroke-dasharray:none;stroke-dashoffset:0;marker:none;visibility:visible;display:inline;overflow:visible;enable-background:accumulate" />
+    <path
+       inkscape:export-ydpi="100"
+       inkscape:export-xdpi="100"
+       inkscape:export-filename="/home/smik/Work/phd/research/my-publications/pub1_privacy-preserving-soa-for-the-energy-internet/figures/sm-private-cloud.png"
+       inkscape:connector-curvature="0"
+       id="path4250-6-8"
+       d="m 416.64734,423.99451 45.49641,0"
+       style="fill:none;stroke:#000000;stroke-width:3.65577483;stroke-linecap:butt;stroke-linejoin:miter;stroke-miterlimit:4;stroke-opacity:1;stroke-dasharray:none;marker-start:url(#Arrow1Sstart);marker-end:url(#Arrow1Send)" />
+    <flowRoot
+       style="font-size:16px;font-family:Liberation Sans;writing-mode:lr-tb;fill-opacity:1;fill:#000000;letter-spacing:0px;text-anchor:start;line-height:125%;word-spacing:0px;stroke:none;font-stretch:normal;font-variant:normal;-inkscape-font-specification:Liberation Sans;font-weight:normal;font-style:normal;text-align:start"
+       id="flowRoot6580"
+       xml:space="preserve"><flowRegion
+         id="flowRegion6582"><rect
+           y="355.15491"
+           x="9.8994951"
+           height="399.51532"
+           width="674.57983"
+           id="rect6584" /></flowRegion><flowPara
+         id="flowPara6586" /></flowRoot>    <rect
+       ry="0"
+       rx="0"
+       y="672.36194"
+       x="34"
+       height="260"
+       width="196"
+       id="rect8415"
+       style="color:#000000;fill:#f0f0f0;fill-opacity:1;fill-rule:nonzero;stroke:none;stroke-width:1.99999976;marker:none;visibility:visible;display:inline;overflow:visible;enable-background:accumulate" />
+    <path
+       inkscape:export-ydpi="100"
+       inkscape:export-xdpi="100"
+       inkscape:export-filename="/home/smik/Work/phd/research/my-publications/pub1_privacy-preserving-soa-for-the-energy-internet/figures/sm-hybrid.png"
+       sodipodi:nodetypes="ccccccc"
+       inkscape:connector-curvature="0"
+       d="m 39.051066,788.02896 91.078664,-91.04132 91.07865,91.04132 m -26.4311,-8.70104 -0.24521,115.27078 -128.804684,0 0.490419,-118.45723"
+       style="color:#000000;fill:#ffffff;fill-opacity:1;stroke:#000000;stroke-width:2.5;stroke-linecap:round;stroke-linejoin:miter;stroke-miterlimit:4;stroke-opacity:1;stroke-dashoffset:0;marker:none;visibility:visible;display:inline;overflow:visible;enable-background:accumulate"
+       id="rect2987-6-7" />
+    <rect
+       ry="0"
+       rx="0"
+       y="674.36194"
+       x="244"
+       height="260"
+       width="196"
+       id="rect8415-3"
+       style="color:#000000;fill:#f0f0f0;fill-opacity:1;fill-rule:nonzero;stroke:none;stroke-width:1.99999975999999990;marker:none;visibility:visible;display:inline;overflow:visible;enable-background:accumulate" />
+    <path
+       inkscape:export-ydpi="100"
+       inkscape:export-xdpi="100"
+       inkscape:export-filename="/home/smik/Work/phd/research/my-publications/pub1_privacy-preserving-soa-for-the-energy-internet/figures/sm-hybrid.png"
+       sodipodi:nodetypes="scscscsscsscscsscscs"
+       inkscape:connector-curvature="0"
+       id="path3905-27-5"
+       d="m 317.47073,759.26077 c -13.56159,0 -24.80913,7.90262 -26.89129,18.25402 -11.99066,3.79783 -20.54143,13.67049 -20.54143,25.20415 0,6.80978 2.97269,13.00239 7.87995,17.73476 -7.78534,3.57316 -12.77623,9.04577 -12.77623,15.17841 0,9.20569 11.22988,16.89084 26.3175,18.93306 -9.5e-4,0.0798 0,0.15969 0,0.23966 0,11.11824 15.75601,20.13137 35.19203,20.13137 1.18893,0 2.36058,-0.054 3.5192,-0.11972 5.24587,3.62599 12.4147,5.87165 20.35016,5.87165 16.05584,0 29.07167,-9.15617 29.07167,-20.45091 0,-0.67913 -0.061,-1.37496 -0.15308,-2.0371 11.43694,-1.11231 20.35015,-10.50031 20.35015,-21.92881 0,-4.51569 -1.39475,-8.72688 -3.78696,-12.22262 8.02665,-3.63832 13.57955,-11.22394 13.57955,-20.05152 0,-12.35361 -10.82371,-22.36819 -24.17541,-22.36819 -0.92865,0 -1.85272,0.0255 -2.75414,0.11985 -0.32374,-12.46904 -12.39726,-22.48799 -27.23556,-22.48799 -7.27306,0 -13.85873,2.38698 -18.74359,6.311 -4.9253,-3.91243 -11.70318,-6.311 -19.20261,-6.311 z"
+       style="color:#000000;fill:#ffffff;fill-opacity:1;fill-rule:nonzero;stroke:#000000;stroke-width:2.15336704;stroke-linecap:round;stroke-linejoin:miter;stroke-miterlimit:4;stroke-opacity:1;stroke-dasharray:none;stroke-dashoffset:0;marker:none;visibility:visible;display:inline;overflow:visible;enable-background:accumulate" />
+    <flowRoot
+       inkscape:export-ydpi="100"
+       inkscape:export-xdpi="100"
+       inkscape:export-filename="/home/smik/Work/phd/research/my-publications/pub1_privacy-preserving-soa-for-the-energy-internet/figures/sm-hybrid.png"
+       transform="translate(-61.402432,615.43908)"
+       style="font-size:20px;font-family:Liberation Sans;writing-mode:lr-tb;fill-opacity:1;fill:#000000;letter-spacing:0px;text-anchor:start;line-height:125%;word-spacing:0px;stroke:none;font-stretch:normal;font-variant:normal;-inkscape-font-specification:Liberation Sans;font-weight:normal;font-style:normal;text-align:start"
+       id="flowRoot4123-2-8"
+       xml:space="preserve"><flowRegion
+         id="flowRegion4125-7-1"><rect
+           style="font-size:20px"
+           y="59.58427"
+           x="86.974136"
+           height="55.204578"
+           width="219.27058"
+           id="rect4127-0-4" /></flowRegion><flowPara
+         id="flowPara7208"
+         style="-inkscape-font-specification:Liberation Sans;font-size:20px;font-weight:normal;text-anchor:middle;text-align:center">Residential Home</flowPara></flowRoot>    <flowRoot
+       inkscape:export-ydpi="100"
+       inkscape:export-xdpi="100"
+       inkscape:export-filename="/home/smik/Work/phd/research/my-publications/pub1_privacy-preserving-soa-for-the-energy-internet/figures/sm-hybrid.png"
+       xml:space="preserve"
+       id="flowRoot4131-3-8"
+       style="font-size:20px;font-family:Liberation Sans;writing-mode:lr-tb;fill-opacity:1;fill:#000000;letter-spacing:0px;text-anchor:start;line-height:125%;word-spacing:0px;stroke:none;font-stretch:normal;font-variant:normal;-inkscape-font-specification:Liberation Sans;font-weight:normal;font-style:normal;text-align:start"
+       transform="translate(159.00969,615.40308)"><flowRegion
+         id="flowRegion4133-2-5"><rect
+           style="font-size:20px"
+           id="rect4135-0-0"
+           width="192.48021"
+           height="28.254826"
+           x="86.974136"
+           y="59.58427" /></flowRegion><flowPara
+         id="flowPara6832"
+         style="font-size:20px;text-align:center;text-anchor:middle">Consolidation Cloud</flowPara></flowRoot>    <path
+       inkscape:export-ydpi="100"
+       inkscape:export-xdpi="100"
+       inkscape:export-filename="/home/smik/Work/phd/research/my-publications/pub1_privacy-preserving-soa-for-the-energy-internet/figures/sm-hybrid.png"
+       inkscape:connector-curvature="0"
+       id="path4250-6-2"
+       d="m 210.56897,824.33382 45.49641,0"
+       style="fill:none;stroke:#000000;stroke-width:3.65577483;stroke-linecap:butt;stroke-linejoin:miter;stroke-miterlimit:4;stroke-opacity:1;stroke-dasharray:none;marker-start:url(#Arrow1Sstart);marker-end:url(#Arrow1Send)" />
+    <rect
+       inkscape:export-ydpi="100"
+       inkscape:export-xdpi="100"
+       inkscape:export-filename="/home/smik/g4184-9.png"
+       style="color:#000000;fill:#ffffff;fill-opacity:1;fill-rule:nonzero;stroke:#000000;stroke-width:2.05705142;stroke-linecap:round;stroke-linejoin:miter;stroke-miterlimit:4;stroke-opacity:1;stroke-dasharray:none;stroke-dashoffset:0;marker:none;visibility:visible;display:inline;overflow:visible;enable-background:accumulate"
+       id="rect3934-0-39-0-2-6-3-3-1"
+       width="87.908371"
+       height="31.966652"
+       x="290.02069"
+       y="783.37885"
+       ry="5"
+       rx="5.0000005" />
+    <flowRoot
+       inkscape:export-ydpi="100"
+       inkscape:export-xdpi="100"
+       inkscape:export-filename="/home/smik/g4184-9.png"
+       transform="matrix(1.0879465,0,0,1.096453,168.52589,316.99092)"
+       style="font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;font-size:11.02207756px;line-height:125%;font-family:'Liberation Sans';-inkscape-font-specification:'Liberation Sans';text-align:start;letter-spacing:0px;word-spacing:0px;writing-mode:lr-tb;text-anchor:start;fill:#000000;fill-opacity:1;stroke:none"
+       id="flowRoot3936-0-1-0-0-7-2-4-4"
+       xml:space="preserve"><flowRegion
+         id="flowRegion3938-2-5-0-5-4-9-4-6"><rect
+           style="font-size:11.02207756px"
+           y="430.81534"
+           x="109.60155"
+           height="47.500668"
+           width="84.498062"
+           id="rect3940-2-5-4-3-2-3-3-7" /></flowRegion><flowPara
+         style="font-size:13.73385525px;text-align:center;text-anchor:middle"
+         id="flowPara3678">PPT</flowPara></flowRoot>    <rect
+       rx="5"
+       ry="5"
+       y="840.57214"
+       x="106.17242"
+       height="34.90065"
+       width="64.855042"
+       id="rect6115-6-7"
+       style="color:#000000;fill:#ffffff;fill-opacity:1;fill-rule:nonzero;stroke:#000000;stroke-width:2;stroke-linecap:round;stroke-linejoin:miter;stroke-miterlimit:4;stroke-opacity:1;stroke-dasharray:none;stroke-dashoffset:0;marker:none;visibility:visible;display:inline;overflow:visible;enable-background:accumulate"
+       inkscape:export-filename="/home/smik/Work/phd/research/my-publications/pub1_privacy-preserving-soa-for-the-energy-internet/figures/sm-hybrid.png"
+       inkscape:export-xdpi="100"
+       inkscape:export-ydpi="100" />
+    <rect
+       inkscape:export-ydpi="100"
+       inkscape:export-xdpi="100"
+       inkscape:export-filename="/home/smik/Work/phd/research/my-publications/pub1_privacy-preserving-soa-for-the-energy-internet/figures/sm-hybrid.png"
+       style="color:#000000;fill:#ffffff;fill-opacity:1;fill-rule:nonzero;stroke:#000000;stroke-width:2;stroke-linecap:round;stroke-linejoin:miter;stroke-miterlimit:4;stroke-opacity:1;stroke-dasharray:none;stroke-dashoffset:0;marker:none;visibility:visible;display:inline;overflow:visible;enable-background:accumulate"
+       id="rect3934-0-6-4-5-7"
+       width="64.855042"
+       height="34.90065"
+       x="100.74205"
+       y="846.03601"
+       ry="5"
+       rx="5" />
+    <rect
+       inkscape:export-ydpi="100"
+       inkscape:export-xdpi="100"
+       inkscape:export-filename="/home/smik/Work/phd/research/my-publications/pub1_privacy-preserving-soa-for-the-energy-internet/figures/sm-hybrid.png"
+       style="color:#000000;fill:#ffffff;fill-opacity:1;fill-rule:nonzero;stroke:#000000;stroke-width:2;stroke-linecap:round;stroke-linejoin:miter;stroke-miterlimit:4;stroke-opacity:1;stroke-dasharray:none;stroke-dashoffset:0;marker:none;visibility:visible;display:inline;overflow:visible;enable-background:accumulate"
+       id="rect3934-0-4-9-5"
+       width="64.855042"
+       height="34.90065"
+       x="94.972527"
+       y="851.25153"
+       ry="5"
+       rx="5" />
+    <flowRoot
+       inkscape:export-ydpi="100"
+       inkscape:export-xdpi="100"
+       inkscape:export-filename="/home/smik/Work/phd/research/my-publications/pub1_privacy-preserving-soa-for-the-energy-internet/figures/sm-hybrid.png"
+       transform="matrix(1.0995802,0,0,1.0952283,-28.886772,381.26395)"
+       style="font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;font-size:13.27158737px;line-height:125%;font-family:'Liberation Sans';-inkscape-font-specification:'Liberation Sans';text-align:start;letter-spacing:0px;word-spacing:0px;writing-mode:lr-tb;text-anchor:start;fill:#000000;fill-opacity:1;stroke:none"
+       id="flowRoot3936-0-4-8-6-2-6"
+       xml:space="preserve"><flowRegion
+         id="flowRegion3938-2-6-6-5-7-8"><rect
+           style="font-size:13.27158737px"
+           y="430.81534"
+           x="109.60155"
+           height="51.19175"
+           width="66.266739"
+           id="rect3940-2-6-3-6-6-0" /></flowRegion><flowPara
+         id="flowPara6998-2"
+         style="font-size:11.17607403px;text-align:center;text-anchor:middle">Intelligent</flowPara><flowPara
+         style="font-size:11.17607403px;text-align:center;text-anchor:middle"
+         id="flowPara4648">apparat</flowPara></flowRoot>    <g
+       inkscape:export-ydpi="100"
+       inkscape:export-xdpi="100"
+       inkscape:export-filename="/home/smik/Work/phd/research/my-publications/pub1_privacy-preserving-soa-for-the-energy-internet/figures/sm-hybrid.png"
+       transform="matrix(1.029254,0,0,1.0977602,74.91892,560.80523)"
+       id="g3865-2-8-4">
+      <g
+         id="g7011-5">
+        <path
+           sodipodi:nodetypes="ccsccsssss"
+           inkscape:connector-curvature="0"
+           d="m 279.05382,245.47889 6.8e-4,30.93185 c 6.9e-4,3.52263 -10.12995,6.37187 -22.62673,6.37187 -12.49678,0 -22.62742,-2.84924 -22.62903,-6.37187 l -0.002,-31.27648 m 45.25481,0.38778 c 0,3.51472 -10.13064,6.36396 -22.62742,6.36396 -12.49678,0 -22.62742,-2.84924 -22.62742,-6.36396 0,-3.51472 10.13064,-6.36396 22.62742,-6.36396 12.49678,0 22.62742,2.84924 22.62742,6.36396 z"
+           style="color:#000000;fill:#ffffff;fill-opacity:1;stroke:#000000;stroke-width:2.05521989;stroke-linecap:round;stroke-linejoin:miter;stroke-miterlimit:4;stroke-opacity:1;stroke-dashoffset:0;marker:none;visibility:visible;display:inline;overflow:visible;enable-background:accumulate"
+           id="path3012-9-8-34-3" />
+      </g>
+    </g>
+    <flowRoot
+       inkscape:export-ydpi="100"
+       inkscape:export-xdpi="100"
+       inkscape:export-filename="/home/smik/Work/phd/research/my-publications/pub1_privacy-preserving-soa-for-the-energy-internet/figures/sm-hybrid.png"
+       xml:space="preserve"
+       id="flowRoot3002-2-3-9"
+       style="font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;font-size:16px;line-height:125%;font-family:'Liberation Sans';-inkscape-font-specification:'Liberation Sans';text-align:center;letter-spacing:0px;word-spacing:0px;writing-mode:lr-tb;text-anchor:middle;fill:#000000;fill-opacity:1;stroke:none"
+       transform="matrix(0.68354883,0,0,0.68354883,241.01956,543.06317)"><flowRegion
+         id="flowRegion3004-7-4-1"><rect
+           style="text-align:center;text-anchor:middle"
+           id="rect3006-0-8-9"
+           width="68.323853"
+           height="47.226688"
+           x="109.60155"
+           y="430.81534" /></flowRegion><flowPara
+         id="flowPara3008-6-8-8">Data</flowPara><flowPara
+         id="flowPara7002-2">lagring</flowPara></flowRoot>    <g
+       inkscape:export-ydpi="100"
+       inkscape:export-xdpi="100"
+       inkscape:export-filename="/home/smik/Work/phd/research/my-publications/pub1_privacy-preserving-soa-for-the-energy-internet/figures/sm-private-cloud.png"
+       transform="translate(38,-17)"
+       id="g7436">
+      <g
+         id="g3865-2-8-4-0"
+         transform="matrix(1.029254,0,0,1.0977602,37.072917,178.87933)">
+        <g
+           id="g7011-5-5">
+          <path
+             id="path3012-9-8-34-3-4"
+             style="color:#000000;fill:#ffffff;fill-opacity:1;stroke:#000000;stroke-width:2.05521989;stroke-linecap:round;stroke-linejoin:miter;stroke-miterlimit:4;stroke-opacity:1;stroke-dashoffset:0;marker:none;visibility:visible;display:inline;overflow:visible;enable-background:accumulate"
+             d="m 279.05382,245.47889 6.8e-4,30.93185 c 6.9e-4,3.52263 -10.12995,6.37187 -22.62673,6.37187 -12.49678,0 -22.62742,-2.84924 -22.62903,-6.37187 l -0.002,-31.27648 m 45.25481,0.38778 c 0,3.51472 -10.13064,6.36396 -22.62742,6.36396 -12.49678,0 -22.62742,-2.84924 -22.62742,-6.36396 0,-3.51472 10.13064,-6.36396 22.62742,-6.36396 12.49678,0 22.62742,2.84924 22.62742,6.36396 z"
+             inkscape:connector-curvature="0"
+             sodipodi:nodetypes="ccsccsssss" />
+        </g>
+      </g>
+      <flowRoot
+         transform="matrix(0.68354883,0,0,0.68354883,203.17356,161.13727)"
+         style="font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;font-size:16px;line-height:125%;font-family:'Liberation Sans';-inkscape-font-specification:'Liberation Sans';text-align:center;letter-spacing:0px;word-spacing:0px;writing-mode:lr-tb;text-anchor:middle;fill:#000000;fill-opacity:1;stroke:none"
+         id="flowRoot3002-2-3-9-7"
+         xml:space="preserve"><flowRegion
+           id="flowRegion3004-7-4-1-7"><rect
+             y="430.81534"
+             x="109.60155"
+             height="47.226688"
+             width="68.323853"
+             id="rect3006-0-8-9-03"
+             style="text-align:center;text-anchor:middle" /></flowRegion><flowPara
+           id="flowPara3008-6-8-8-29">Data</flowPara><flowPara
+           id="flowPara7002-2-1">lagring</flowPara></flowRoot>    </g>
+    <g
+       inkscape:export-ydpi="100"
+       inkscape:export-xdpi="100"
+       inkscape:export-filename="/home/smik/Work/phd/research/my-publications/pub1_privacy-preserving-soa-for-the-energy-internet/figures/sm-hybrid.png"
+       transform="matrix(0.79799507,0,0,0.85110889,-74.102142,512.82635)"
+       id="g3865-2-8-4-2">
+      <g
+         id="g7011-5-4">
+        <path
+           sodipodi:nodetypes="ccsccsssss"
+           inkscape:connector-curvature="0"
+           d="m 279.05382,245.47889 6.8e-4,30.93185 c 6.9e-4,3.52263 -10.12995,6.37187 -22.62673,6.37187 -12.49678,0 -22.62742,-2.84924 -22.62903,-6.37187 l -0.002,-31.27648 m 45.25481,0.38778 c 0,3.51472 -10.13064,6.36396 -22.62742,6.36396 -12.49678,0 -22.62742,-2.84924 -22.62742,-6.36396 0,-3.51472 10.13064,-6.36396 22.62742,-6.36396 12.49678,0 22.62742,2.84924 22.62742,6.36396 z"
+           style="color:#000000;fill:#ffffff;fill-opacity:1;stroke:#000000;stroke-width:2.6508224;stroke-linecap:round;stroke-linejoin:miter;stroke-miterlimit:4;stroke-opacity:1;stroke-dashoffset:0;marker:none;visibility:visible;display:inline;overflow:visible;enable-background:accumulate"
+           id="path3012-9-8-34-3-8" />
+      </g>
+    </g>
+    <flowRoot
+       inkscape:export-ydpi="100"
+       inkscape:export-xdpi="100"
+       inkscape:export-filename="/home/smik/Work/phd/research/my-publications/pub1_privacy-preserving-soa-for-the-energy-internet/figures/sm-hybrid.png"
+       xml:space="preserve"
+       id="flowRoot3002-2-3-9-8"
+       style="font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;font-size:16px;line-height:125%;font-family:'Liberation Sans';-inkscape-font-specification:'Liberation Sans';text-align:center;letter-spacing:0px;word-spacing:0px;writing-mode:lr-tb;text-anchor:middle;fill:#000000;fill-opacity:1;stroke:none"
+       transform="matrix(0.529965,0,0,0.529965,54.67801,499.07069)"><flowRegion
+         id="flowRegion3004-7-4-1-2"><rect
+           style="text-align:center;text-anchor:middle"
+           id="rect3006-0-8-9-7"
+           width="68.323853"
+           height="47.226688"
+           x="109.60155"
+           y="430.81534" /></flowRegion><flowPara
+         id="flowPara3008-6-8-8-8">Data</flowPara><flowPara
+         id="flowPara7002-2-2">lagring</flowPara></flowRoot>    <rect
+       rx="5"
+       ry="5"
+       y="-18.230606"
+       x="313.5813"
+       height="81.292152"
+       width="85.415848"
+       id="rect5775-9-5-8-8"
+       style="color:#000000;fill:#ffffff;fill-opacity:1;fill-rule:nonzero;stroke:#000000;stroke-width:2.05705142;stroke-linecap:round;stroke-linejoin:miter;stroke-miterlimit:4;stroke-opacity:1;stroke-dasharray:none;stroke-dashoffset:0;marker:none;visibility:visible;display:inline;overflow:visible;enable-background:accumulate"
+       inkscape:export-filename="/home/smik/Work/phd/research/my-publications/pub1_privacy-preserving-soa-for-the-energy-internet/figures/sm-pure-iot.png"
+       inkscape:export-xdpi="100"
+       inkscape:export-ydpi="100" />
+    <rect
+       inkscape:export-ydpi="100"
+       inkscape:export-xdpi="100"
+       inkscape:export-filename="/home/smik/Work/phd/research/my-publications/pub1_privacy-preserving-soa-for-the-energy-internet/figures/sm-pure-iot.png"
+       style="color:#000000;fill:#ffffff;fill-opacity:1;fill-rule:nonzero;stroke:#000000;stroke-width:2.05705142;stroke-linecap:round;stroke-linejoin:miter;stroke-miterlimit:4;stroke-opacity:1;stroke-dasharray:none;stroke-dashoffset:0;marker:none;visibility:visible;display:inline;overflow:visible;enable-background:accumulate"
+       id="rect3934-0-39-6-7-9-38-8"
+       width="85.415848"
+       height="84.292152"
+       x="309.58563"
+       y="-13.276817"
+       ry="5.0000005"
+       rx="5" />
+    <rect
+       inkscape:export-ydpi="100"
+       inkscape:export-xdpi="100"
+       inkscape:export-filename="/home/smik/Work/phd/research/my-publications/pub1_privacy-preserving-soa-for-the-energy-internet/figures/sm-pure-iot.png"
+       style="color:#000000;fill:#ffffff;fill-opacity:1;fill-rule:nonzero;stroke:#000000;stroke-width:2.05705142;stroke-linecap:round;stroke-linejoin:miter;stroke-miterlimit:4;stroke-opacity:1;stroke-dasharray:none;stroke-dashoffset:0;marker:none;visibility:visible;display:inline;overflow:visible;enable-background:accumulate"
+       id="rect3934-0-39-0-2-6-8"
+       width="85.415848"
+       height="84.292152"
+       x="305.00287"
+       y="-7.8371658"
+       ry="5.0000005"
+       rx="5" />
+    <flowRoot
+       inkscape:export-ydpi="100"
+       inkscape:export-xdpi="100"
+       inkscape:export-filename="/home/smik/Work/phd/research/my-publications/pub1_privacy-preserving-soa-for-the-energy-internet/figures/sm-pure-iot.png"
+       transform="matrix(1.4778804,0,0,1.4894357,123.96277,-648.16669)"
+       style="font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;font-size:11.02207756px;line-height:125%;font-family:'Liberation Sans';-inkscape-font-specification:'Liberation Sans';text-align:start;letter-spacing:0px;word-spacing:0px;writing-mode:lr-tb;text-anchor:start;fill:#000000;fill-opacity:1;stroke:none"
+       id="flowRoot3936-0-1-0-0-7-6"
+       xml:space="preserve"><flowRegion
+         id="flowRegion3938-2-5-0-5-4-3"><rect
+           style="font-size:11.02207756px"
+           y="430.81534"
+           x="109.60155"
+           height="47.500668"
+           width="84.498062"
+           id="rect3940-2-5-4-3-2-0" /></flowRegion><flowPara
+         id="flowPara7024-0-3"
+         style="font-size:11.02207756px;text-align:center;text-anchor:middle">Software</flowPara><flowPara
+         style="font-size:11.02207756px;text-align:center;text-anchor:middle"
+         id="flowPara4614">service</flowPara></flowRoot>    <flowRoot
+       transform="matrix(1.5065204,0,0,1.5065204,36.016666,-67.55903)"
+       style="font-size:16px;font-family:Liberation Sans;writing-mode:lr-tb;fill-opacity:1;fill:#000000;letter-spacing:0px;text-anchor:start;line-height:125%;word-spacing:0px;stroke:none;font-stretch:normal;font-variant:normal;-inkscape-font-specification:Liberation Sans;font-weight:normal;font-style:normal;text-align:start"
+       id="flowRoot7666"
+       xml:space="preserve"><flowRegion
+         id="flowRegion7668"><rect
+           y="-82.637802"
+           x="27"
+           height="77"
+           width="439"
+           id="rect7670" /></flowRegion><flowPara
+         style="font-size:20px;font-weight:bold;-inkscape-font-specification:Ubuntu Bold"
+         id="flowPara7672" /></flowRoot>    <flowRoot
+       transform="matrix(1.5065204,0,0,1.5065204,-7.9833335,744.14657)"
+       style="font-size:16px;font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;text-align:start;line-height:125%;letter-spacing:0px;word-spacing:0px;writing-mode:lr-tb;text-anchor:start;fill:#000000;fill-opacity:1;stroke:none;font-family:Liberation Sans;-inkscape-font-specification:Liberation Sans"
+       id="flowRoot7666-6-5"
+       xml:space="preserve"><flowRegion
+         id="flowRegion7668-1-7"><rect
+           y="-82.637802"
+           x="27"
+           height="32.526657"
+           width="433.68976"
+           id="rect7670-3-3" /></flowRegion><flowPara
+         style="font-size:20px;font-weight:bold;-inkscape-font-specification:Ubuntu Bold"
+         id="flowPara7672-6-1">Model III: Hybrid IoT / Private Cloud</flowPara></flowRoot>    <rect
+       style="color:#000000;fill:#f0f0f0;fill-opacity:1;fill-rule:nonzero;stroke:none;stroke-width:1.99999976;marker:none;visibility:visible;display:inline;overflow:visible;enable-background:accumulate"
+       id="rect8439"
+       width="196"
+       height="260"
+       x="454"
+       y="674.36194"
+       rx="0"
+       ry="0" />
+    <g
+       id="g8876">
+      <g
+         transform="matrix(0.29519709,0,0,0.29519709,362.37035,816.99446)"
+         id="g6117-6-7"
+         inkscape:export-filename="/home/smik/Work/phd/research/my-publications/pub1_privacy-preserving-soa-for-the-energy-internet/figures/sm-hybrid.png"
+         inkscape:export-xdpi="100"
+         inkscape:export-ydpi="100">
+        <path
+           sodipodi:type="arc"
+           style="color:#000000;fill:none;stroke:#000000;stroke-width:10.16270161;stroke-linecap:round;stroke-linejoin:miter;stroke-miterlimit:4;stroke-opacity:1;stroke-dasharray:none;stroke-dashoffset:0;marker:none;visibility:visible;display:inline;overflow:visible;enable-background:accumulate"
+           id="path6119-8-7"
+           sodipodi:cx="156.57364"
+           sodipodi:cy="251.31122"
+           sodipodi:rx="29.294424"
+           sodipodi:ry="29.294424"
+           d="m 185.86806,251.31122 a 29.294424,29.294424 0 0 1 -29.29442,29.29442 29.294424,29.294424 0 0 1 -29.29443,-29.29442 29.294424,29.294424 0 0 1 29.29443,-29.29443 29.294424,29.294424 0 0 1 29.29442,29.29443 z"
+           transform="translate(-1.3248039,31.112698)" />
+        <path
+           id="path6121-6-4"
+           style="fill:none;stroke:#000000;stroke-width:10.16270161;stroke-linecap:butt;stroke-linejoin:miter;stroke-miterlimit:4;stroke-opacity:1;stroke-dasharray:none"
+           d="m 155.24843,400.00404 47.22463,38.43794 m -47.22383,-126.82465 0,88.38671 -47.22462,38.43794"
+           inkscape:connector-curvature="0" />
+        <path
+           style="fill:none;stroke:#000000;stroke-width:10.16270161;stroke-linecap:butt;stroke-linejoin:miter;stroke-miterlimit:4;stroke-opacity:1;stroke-dasharray:none"
+           d="m 105.00536,334.14271 100.48695,0"
+           id="path6123-1-6"
+           inkscape:connector-curvature="0" />
+      </g>
+      <flowRoot
+         xml:space="preserve"
+         id="flowRoot6133-2-8-6"
+         style="font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;font-size:16px;line-height:125%;font-family:'Liberation Sans';-inkscape-font-specification:'Liberation Sans';text-align:center;letter-spacing:0px;word-spacing:0px;writing-mode:lr-tb;text-anchor:middle;fill:#000000;fill-opacity:1;stroke:none"
+         transform="translate(263.7185,530.77028)"
+         inkscape:export-filename="/home/smik/Work/phd/research/my-publications/pub1_privacy-preserving-soa-for-the-energy-internet/figures/sm-hybrid.png"
+         inkscape:export-xdpi="100"
+         inkscape:export-ydpi="100"><flowRegion
+           id="flowRegion6135-9-1-2"><rect
+             id="rect6137-0-8-3"
+             width="149.62234"
+             height="45.376129"
+             x="66.46804"
+             y="422.33005"
+             style="text-align:center;text-anchor:middle" /></flowRegion><flowPara
+           id="flowPara8445">Distributionssystem-</flowPara><flowPara
+           id="flowPara4667">operatør</flowPara></flowRoot>    </g>
+    <g
+       id="g8865">
+      <g
+         id="g6125-2-6"
+         transform="matrix(0.29519709,0,0,0.29519709,527.40508,816.99446)"
+         inkscape:export-filename="/home/smik/Work/phd/research/my-publications/pub1_privacy-preserving-soa-for-the-energy-internet/figures/sm-hybrid.png"
+         inkscape:export-xdpi="100"
+         inkscape:export-ydpi="100">
+        <path
+           transform="translate(-1.3248039,31.112698)"
+           d="m 185.86806,251.31122 a 29.294424,29.294424 0 0 1 -29.29442,29.29442 29.294424,29.294424 0 0 1 -29.29443,-29.29442 29.294424,29.294424 0 0 1 29.29443,-29.29443 29.294424,29.294424 0 0 1 29.29442,29.29443 z"
+           sodipodi:ry="29.294424"
+           sodipodi:rx="29.294424"
+           sodipodi:cy="251.31122"
+           sodipodi:cx="156.57364"
+           id="path6127-6-0"
+           style="color:#000000;fill:none;stroke:#000000;stroke-width:10.16270161;stroke-linecap:round;stroke-linejoin:miter;stroke-miterlimit:4;stroke-opacity:1;stroke-dasharray:none;stroke-dashoffset:0;marker:none;visibility:visible;display:inline;overflow:visible;enable-background:accumulate"
+           sodipodi:type="arc" />
+        <path
+           inkscape:connector-curvature="0"
+           d="m 155.24843,400.00404 47.22463,38.43794 m -47.22383,-126.82465 0,88.38671 -47.22462,38.43794"
+           style="fill:none;stroke:#000000;stroke-width:10.16270161;stroke-linecap:butt;stroke-linejoin:miter;stroke-miterlimit:4;stroke-opacity:1;stroke-dasharray:none"
+           id="path6129-2-8" />
+        <path
+           inkscape:connector-curvature="0"
+           id="path6131-8-1"
+           d="m 105.00536,334.14271 100.48695,0"
+           style="fill:none;stroke:#000000;stroke-width:10.16270161;stroke-linecap:butt;stroke-linejoin:miter;stroke-miterlimit:4;stroke-opacity:1;stroke-dasharray:none" />
+      </g>
+      <flowRoot
+         xml:space="preserve"
+         id="flowRoot6133-7-1-3"
+         style="font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;font-size:16px;line-height:125%;font-family:'Liberation Sans';-inkscape-font-specification:'Liberation Sans';text-align:center;letter-spacing:0px;word-spacing:0px;writing-mode:lr-tb;text-anchor:middle;fill:#000000;fill-opacity:1;stroke:none"
+         transform="translate(413.95424,530.77028)"
+         inkscape:export-filename="/home/smik/Work/phd/research/my-publications/pub1_privacy-preserving-soa-for-the-energy-internet/figures/sm-hybrid.png"
+         inkscape:export-xdpi="100"
+         inkscape:export-ydpi="100"><flowRegion
+           id="flowRegion6135-92-1-4"><rect
+             id="rect6137-7-4-4"
+             width="182.87717"
+             height="42.630951"
+             x="66.46804"
+             y="422.33005"
+             style="text-align:center;text-anchor:middle" /></flowRegion><flowPara
+           id="flowPara9616">3. parts</flowPara><flowPara
+           id="flowPara4675">serviceudbyder</flowPara></flowRoot>    </g>
+    <path
+       inkscape:export-ydpi="100"
+       inkscape:export-xdpi="100"
+       inkscape:export-filename="/home/smik/Work/phd/research/my-publications/pub1_privacy-preserving-soa-for-the-energy-internet/figures/sm-hybrid.png"
+       inkscape:connector-curvature="0"
+       id="path4250-6-8-3"
+       d="m 419.4111,822.64914 45.49641,0"
+       style="fill:none;stroke:#000000;stroke-width:3.65577483;stroke-linecap:butt;stroke-linejoin:miter;stroke-miterlimit:4;stroke-opacity:1;stroke-dasharray:none;marker-start:url(#Arrow1Sstart);marker-end:url(#Arrow1Send)" />
+    <flowRoot
+       transform="translate(415.38274,615.40308)"
+       style="font-size:20px;font-family:Liberation Sans;writing-mode:lr-tb;fill-opacity:1;fill:#000000;letter-spacing:0px;text-anchor:start;line-height:125%;word-spacing:0px;stroke:none;font-stretch:normal;font-variant:normal;-inkscape-font-specification:Liberation Sans;font-weight:normal;font-style:normal;text-align:start"
+       id="flowRoot6542-9"
+       xml:space="preserve"
+       inkscape:export-filename="/home/smik/Work/phd/research/my-publications/pub1_privacy-preserving-soa-for-the-energy-internet/figures/sm-hybrid.png"
+       inkscape:export-xdpi="100"
+       inkscape:export-ydpi="100"><flowRegion
+         id="flowRegion6544-2"><rect
+           style="font-size:20px"
+           y="59.58427"
+           x="86.974136"
+           height="45.254829"
+           width="107.48022"
+           id="rect6546-3" /></flowRegion><flowPara
+         id="flowPara6548-2"
+         style="font-size:20px;text-align:center;text-anchor:middle">Cloud</flowPara></flowRoot>    <g
+       id="g8887">
+      <g
+         id="g3777-7-6"
+         transform="matrix(0.29519709,0,0,0.29519709,191.00341,816.99446)"
+         inkscape:export-filename="/home/smik/Work/phd/research/my-publications/pub1_privacy-preserving-soa-for-the-energy-internet/figures/sm-hybrid.png"
+         inkscape:export-xdpi="100"
+         inkscape:export-ydpi="100">
+        <path
+           transform="translate(-1.3248039,31.112698)"
+           d="m 185.86806,251.31122 a 29.294424,29.294424 0 0 1 -29.29442,29.29442 29.294424,29.294424 0 0 1 -29.29443,-29.29442 29.294424,29.294424 0 0 1 29.29443,-29.29443 29.294424,29.294424 0 0 1 29.29442,29.29443 z"
+           sodipodi:ry="29.294424"
+           sodipodi:rx="29.294424"
+           sodipodi:cy="251.31122"
+           sodipodi:cx="156.57364"
+           id="path2987-4-5"
+           style="color:#000000;fill:none;stroke:#000000;stroke-width:10.16270161;stroke-linecap:round;stroke-linejoin:miter;stroke-miterlimit:4;stroke-opacity:1;stroke-dasharray:none;stroke-dashoffset:0;marker:none;visibility:visible;display:inline;overflow:visible;enable-background:accumulate"
+           sodipodi:type="arc" />
+        <path
+           inkscape:connector-curvature="0"
+           d="m 155.24843,400.00404 47.22463,38.43794 m -47.22383,-126.82465 0,88.38671 -47.22462,38.43794"
+           style="fill:none;stroke:#000000;stroke-width:10.16270161;stroke-linecap:butt;stroke-linejoin:miter;stroke-miterlimit:4;stroke-opacity:1;stroke-dasharray:none"
+           id="path2997-8-6" />
+        <path
+           inkscape:connector-curvature="0"
+           id="path3769-8-5"
+           d="m 105.00536,334.14271 100.48695,0"
+           style="fill:none;stroke:#000000;stroke-width:10.16270161;stroke-linecap:butt;stroke-linejoin:miter;stroke-miterlimit:4;stroke-opacity:1;stroke-dasharray:none" />
+      </g>
+      <flowRoot
+         xml:space="preserve"
+         id="flowRoot6133-5-5"
+         style="font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;font-size:16px;line-height:125%;font-family:'Liberation Sans';-inkscape-font-specification:'Liberation Sans';text-align:center;letter-spacing:0px;word-spacing:0px;writing-mode:lr-tb;text-anchor:middle;fill:#000000;fill-opacity:1;stroke:none"
+         transform="translate(110.96741,530.77028)"
+         inkscape:export-filename="/home/smik/Work/phd/research/my-publications/pub1_privacy-preserving-soa-for-the-energy-internet/figures/sm-hybrid.png"
+         inkscape:export-xdpi="100"
+         inkscape:export-ydpi="100"><flowRegion
+           id="flowRegion6135-98-9"><rect
+             id="rect6137-5-8"
+             width="121.62236"
+             height="47.376144"
+             x="66.46804"
+             y="422.33005"
+             style="text-align:center;text-anchor:middle" /></flowRegion><flowPara
+           id="flowPara6141-49-6">Forbruger</flowPara></flowRoot>    </g>
+    <rect
+       style="color:#000000;fill:#ffffff;fill-opacity:1;stroke:#000000;stroke-width:2;stroke-linecap:round;stroke-linejoin:miter;stroke-miterlimit:4;stroke-opacity:1;stroke-dasharray:3.99999997, 3.99999997;stroke-dashoffset:0;marker:none;visibility:visible;display:inline;overflow:visible;enable-background:accumulate"
+       id="rect3701-0"
+       width="106.74581"
+       height="75.601562"
+       x="77.08828"
+       y="758.5885"
+       rx="4.9999995"
+       ry="5" />
+    <rect
+       inkscape:transform-center-x="-7.5567116"
+       inkscape:export-ydpi="100"
+       inkscape:export-xdpi="100"
+       inkscape:export-filename="/home/smik/Work/phd/research/my-publications/pub1_privacy-preserving-soa-for-the-energy-internet/figures/sm-private-cloud.png"
+       style="color:#000000;fill:#ffffff;fill-opacity:1;fill-rule:nonzero;stroke:#000000;stroke-width:2;stroke-linecap:round;stroke-linejoin:miter;stroke-miterlimit:4;stroke-opacity:1;stroke-dasharray:none;stroke-dashoffset:0;marker:none;visibility:visible;display:inline;overflow:visible;enable-background:accumulate"
+       id="rect3934-0-7-0-7-1"
+       width="85.273178"
+       height="44.5"
+       x="88.363411"
+       y="784.11194"
+       ry="5"
+       rx="5" />
+    <flowRoot
+       transform="matrix(1.5065204,0,0,1.5065204,-2.3955121,356.25203)"
+       style="font-size:16px;font-family:Liberation Sans;writing-mode:lr-tb;fill-opacity:1;fill:#000000;letter-spacing:0px;text-anchor:start;line-height:125%;word-spacing:0px;stroke:none;font-stretch:normal;font-variant:normal;-inkscape-font-specification:Liberation Sans;font-weight:normal;font-style:normal;text-align:start"
+       id="flowRoot7666-6-5-9"
+       xml:space="preserve"><flowRegion
+         id="flowRegion7668-1-7-2"><rect
+           y="-82.637802"
+           x="27"
+           height="32.526657"
+           width="433.68976"
+           id="rect7670-3-3-3" /></flowRegion><flowPara
+         style="font-size:20px;font-weight:bold;-inkscape-font-specification:Ubuntu Bold"
+         id="flowPara7672-6-1-1">Model II: Private Cloud </flowPara></flowRoot>    <path
+       inkscape:export-ydpi="100"
+       inkscape:export-xdpi="100"
+       inkscape:export-filename="/home/smik/Work/phd/research/my-publications/pub1_privacy-preserving-soa-for-the-energy-internet/figures/sm-hybrid.png"
+       sodipodi:nodetypes="ccccccc"
+       inkscape:connector-curvature="0"
+       d="M 52.340091,409.57014 132,329.9308 l 79.65991,79.63934 m -23.11737,-7.61133 -0.21447,100.83431 -112.656139,0 0.42894,-103.62169"
+       style="color:#000000;fill:#ffffff;fill-opacity:1;stroke:#000000;stroke-width:2.5;stroke-linecap:round;stroke-linejoin:miter;stroke-miterlimit:4;stroke-opacity:1;stroke-dashoffset:0;marker:none;visibility:visible;display:inline;overflow:visible;enable-background:accumulate"
+       id="rect2987-6-7-3" />
+    <rect
+       rx="5"
+       ry="5"
+       y="442.10107"
+       x="104.46144"
+       height="34.90065"
+       width="64.855042"
+       id="rect6115-6-7-8"
+       style="color:#000000;fill:#ffffff;fill-opacity:1;fill-rule:nonzero;stroke:#000000;stroke-width:2;stroke-linecap:round;stroke-linejoin:miter;stroke-miterlimit:4;stroke-opacity:1;stroke-dasharray:none;stroke-dashoffset:0;marker:none;visibility:visible;display:inline;overflow:visible;enable-background:accumulate"
+       inkscape:export-filename="/home/smik/Work/phd/research/my-publications/pub1_privacy-preserving-soa-for-the-energy-internet/figures/sm-hybrid.png"
+       inkscape:export-xdpi="100"
+       inkscape:export-ydpi="100" />
+    <rect
+       inkscape:export-ydpi="100"
+       inkscape:export-xdpi="100"
+       inkscape:export-filename="/home/smik/Work/phd/research/my-publications/pub1_privacy-preserving-soa-for-the-energy-internet/figures/sm-hybrid.png"
+       style="color:#000000;fill:#ffffff;fill-opacity:1;fill-rule:nonzero;stroke:#000000;stroke-width:2;stroke-linecap:round;stroke-linejoin:miter;stroke-miterlimit:4;stroke-opacity:1;stroke-dasharray:none;stroke-dashoffset:0;marker:none;visibility:visible;display:inline;overflow:visible;enable-background:accumulate"
+       id="rect3934-0-6-4-5-7-8"
+       width="64.855042"
+       height="34.90065"
+       x="99.031067"
+       y="447.56494"
+       ry="5"
+       rx="5" />
+    <rect
+       inkscape:export-ydpi="100"
+       inkscape:export-xdpi="100"
+       inkscape:export-filename="/home/smik/Work/phd/research/my-publications/pub1_privacy-preserving-soa-for-the-energy-internet/figures/sm-hybrid.png"
+       style="color:#000000;fill:#ffffff;fill-opacity:1;fill-rule:nonzero;stroke:#000000;stroke-width:2;stroke-linecap:round;stroke-linejoin:miter;stroke-miterlimit:4;stroke-opacity:1;stroke-dasharray:none;stroke-dashoffset:0;marker:none;visibility:visible;display:inline;overflow:visible;enable-background:accumulate"
+       id="rect3934-0-4-9-5-1"
+       width="64.855042"
+       height="34.90065"
+       x="93.261551"
+       y="452.78046"
+       ry="5"
+       rx="5" />
+    <flowRoot
+       inkscape:export-ydpi="100"
+       inkscape:export-xdpi="100"
+       inkscape:export-filename="/home/smik/Work/phd/research/my-publications/pub1_privacy-preserving-soa-for-the-energy-internet/figures/sm-hybrid.png"
+       transform="matrix(1.0995802,0,0,1.0952283,-30.597751,-17.207125)"
+       style="font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;font-size:13.27158737px;line-height:125%;font-family:'Liberation Sans';-inkscape-font-specification:'Liberation Sans';text-align:start;letter-spacing:0px;word-spacing:0px;writing-mode:lr-tb;text-anchor:start;fill:#000000;fill-opacity:1;stroke:none"
+       id="flowRoot3936-0-4-8-6-2-6-5"
+       xml:space="preserve"><flowRegion
+         id="flowRegion3938-2-6-6-5-7-8-1"><rect
+           style="font-size:13.27158737px"
+           y="430.81534"
+           x="109.60155"
+           height="51.19175"
+           width="66.266739"
+           id="rect3940-2-6-3-6-6-0-5" /></flowRegion><flowPara
+         id="flowPara6998-2-6"
+         style="font-size:11.17607403px;text-align:center;text-anchor:middle">Intelligent</flowPara><flowPara
+         style="font-size:11.17607403px;text-align:center;text-anchor:middle"
+         id="flowPara4632">apparat</flowPara></flowRoot>    <g
+       id="g8876-9"
+       transform="translate(-4.4693321,-395.91923)">
+      <g
+         transform="matrix(0.29519709,0,0,0.29519709,362.37035,816.99446)"
+         id="g6117-6-7-8"
+         inkscape:export-filename="/home/smik/Work/phd/research/my-publications/pub1_privacy-preserving-soa-for-the-energy-internet/figures/sm-hybrid.png"
+         inkscape:export-xdpi="100"
+         inkscape:export-ydpi="100">
+        <path
+           sodipodi:type="arc"
+           style="color:#000000;fill:none;stroke:#000000;stroke-width:10.16270161;stroke-linecap:round;stroke-linejoin:miter;stroke-miterlimit:4;stroke-opacity:1;stroke-dasharray:none;stroke-dashoffset:0;marker:none;visibility:visible;display:inline;overflow:visible;enable-background:accumulate"
+           id="path6119-8-7-7"
+           sodipodi:cx="156.57364"
+           sodipodi:cy="251.31122"
+           sodipodi:rx="29.294424"
+           sodipodi:ry="29.294424"
+           d="m 185.86806,251.31122 a 29.294424,29.294424 0 0 1 -29.29442,29.29442 29.294424,29.294424 0 0 1 -29.29443,-29.29442 29.294424,29.294424 0 0 1 29.29443,-29.29443 29.294424,29.294424 0 0 1 29.29442,29.29443 z"
+           transform="translate(-1.3248039,31.112698)" />
+        <path
+           id="path6121-6-4-7"
+           style="fill:none;stroke:#000000;stroke-width:10.16270161;stroke-linecap:butt;stroke-linejoin:miter;stroke-miterlimit:4;stroke-opacity:1;stroke-dasharray:none"
+           d="m 155.24843,400.00404 47.22463,38.43794 m -47.22383,-126.82465 0,88.38671 -47.22462,38.43794"
+           inkscape:connector-curvature="0" />
+        <path
+           style="fill:none;stroke:#000000;stroke-width:10.16270161;stroke-linecap:butt;stroke-linejoin:miter;stroke-miterlimit:4;stroke-opacity:1;stroke-dasharray:none"
+           d="m 105.00536,334.14271 100.48695,0"
+           id="path6123-1-6-5"
+           inkscape:connector-curvature="0" />
+      </g>
+      <flowRoot
+         xml:space="preserve"
+         id="flowRoot6133-2-8-6-1"
+         style="font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;font-size:16px;line-height:125%;font-family:'Liberation Sans';-inkscape-font-specification:'Liberation Sans';text-align:center;letter-spacing:0px;word-spacing:0px;writing-mode:lr-tb;text-anchor:middle;fill:#000000;fill-opacity:1;stroke:none"
+         transform="translate(263.7185,530.77028)"
+         inkscape:export-filename="/home/smik/Work/phd/research/my-publications/pub1_privacy-preserving-soa-for-the-energy-internet/figures/sm-hybrid.png"
+         inkscape:export-xdpi="100"
+         inkscape:export-ydpi="100"><flowRegion
+           id="flowRegion6135-9-1-2-3"><rect
+             id="rect6137-0-8-3-4"
+             width="149.62234"
+             height="45.376129"
+             x="66.46804"
+             y="422.33005"
+             style="text-align:center;text-anchor:middle" /></flowRegion><flowPara
+           id="flowPara8445-5">Distributionssystem-</flowPara><flowPara
+           id="flowPara4663">operatør</flowPara></flowRoot>    </g>
+    <g
+       id="g8865-3"
+       transform="translate(-4.4693321,-395.91923)">
+      <g
+         id="g6125-2-6-7"
+         transform="matrix(0.29519709,0,0,0.29519709,527.40508,816.99446)"
+         inkscape:export-filename="/home/smik/Work/phd/research/my-publications/pub1_privacy-preserving-soa-for-the-energy-internet/figures/sm-hybrid.png"
+         inkscape:export-xdpi="100"
+         inkscape:export-ydpi="100">
+        <path
+           transform="translate(-1.3248039,31.112698)"
+           d="m 185.86806,251.31122 a 29.294424,29.294424 0 0 1 -29.29442,29.29442 29.294424,29.294424 0 0 1 -29.29443,-29.29442 29.294424,29.294424 0 0 1 29.29443,-29.29443 29.294424,29.294424 0 0 1 29.29442,29.29443 z"
+           sodipodi:ry="29.294424"
+           sodipodi:rx="29.294424"
+           sodipodi:cy="251.31122"
+           sodipodi:cx="156.57364"
+           id="path6127-6-0-6"
+           style="color:#000000;fill:none;stroke:#000000;stroke-width:10.16270161;stroke-linecap:round;stroke-linejoin:miter;stroke-miterlimit:4;stroke-opacity:1;stroke-dasharray:none;stroke-dashoffset:0;marker:none;visibility:visible;display:inline;overflow:visible;enable-background:accumulate"
+           sodipodi:type="arc" />
+        <path
+           inkscape:connector-curvature="0"
+           d="m 155.24843,400.00404 47.22463,38.43794 m -47.22383,-126.82465 0,88.38671 -47.22462,38.43794"
+           style="fill:none;stroke:#000000;stroke-width:10.16270161;stroke-linecap:butt;stroke-linejoin:miter;stroke-miterlimit:4;stroke-opacity:1;stroke-dasharray:none"
+           id="path6129-2-8-2" />
+        <path
+           inkscape:connector-curvature="0"
+           id="path6131-8-1-7"
+           d="m 105.00536,334.14271 100.48695,0"
+           style="fill:none;stroke:#000000;stroke-width:10.16270161;stroke-linecap:butt;stroke-linejoin:miter;stroke-miterlimit:4;stroke-opacity:1;stroke-dasharray:none" />
+      </g>
+      <flowRoot
+         xml:space="preserve"
+         id="flowRoot6133-7-1-3-4"
+         style="font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;font-size:16px;line-height:125%;font-family:'Liberation Sans';-inkscape-font-specification:'Liberation Sans';text-align:center;letter-spacing:0px;word-spacing:0px;writing-mode:lr-tb;text-anchor:middle;fill:#000000;fill-opacity:1;stroke:none"
+         transform="translate(413.95424,530.77028)"
+         inkscape:export-filename="/home/smik/Work/phd/research/my-publications/pub1_privacy-preserving-soa-for-the-energy-internet/figures/sm-hybrid.png"
+         inkscape:export-xdpi="100"
+         inkscape:export-ydpi="100"><flowRegion
+           id="flowRegion6135-92-1-4-7"><rect
+             id="rect6137-7-4-4-3"
+             width="182.87717"
+             height="42.630951"
+             x="66.46804"
+             y="422.33005"
+             style="text-align:center;text-anchor:middle" /></flowRegion><flowPara
+           id="flowPara6207-4-9-9">3. parts</flowPara><flowPara
+           id="flowPara4671">serviceudbyder</flowPara></flowRoot>    </g>
+    <g
+       id="g8887-3"
+       transform="translate(-4.4693321,-395.91923)">
+      <g
+         id="g3777-7-6-6"
+         transform="matrix(0.29519709,0,0,0.29519709,191.00341,816.99446)"
+         inkscape:export-filename="/home/smik/Work/phd/research/my-publications/pub1_privacy-preserving-soa-for-the-energy-internet/figures/sm-hybrid.png"
+         inkscape:export-xdpi="100"
+         inkscape:export-ydpi="100">
+        <path
+           transform="translate(-1.3248039,31.112698)"
+           d="m 185.86806,251.31122 a 29.294424,29.294424 0 0 1 -29.29442,29.29442 29.294424,29.294424 0 0 1 -29.29443,-29.29442 29.294424,29.294424 0 0 1 29.29443,-29.29443 29.294424,29.294424 0 0 1 29.29442,29.29443 z"
+           sodipodi:ry="29.294424"
+           sodipodi:rx="29.294424"
+           sodipodi:cy="251.31122"
+           sodipodi:cx="156.57364"
+           id="path2987-4-5-0"
+           style="color:#000000;fill:none;stroke:#000000;stroke-width:10.16270161;stroke-linecap:round;stroke-linejoin:miter;stroke-miterlimit:4;stroke-opacity:1;stroke-dasharray:none;stroke-dashoffset:0;marker:none;visibility:visible;display:inline;overflow:visible;enable-background:accumulate"
+           sodipodi:type="arc" />
+        <path
+           inkscape:connector-curvature="0"
+           d="m 155.24843,400.00404 47.22463,38.43794 m -47.22383,-126.82465 0,88.38671 -47.22462,38.43794"
+           style="fill:none;stroke:#000000;stroke-width:10.16270161;stroke-linecap:butt;stroke-linejoin:miter;stroke-miterlimit:4;stroke-opacity:1;stroke-dasharray:none"
+           id="path2997-8-6-1" />
+        <path
+           inkscape:connector-curvature="0"
+           id="path3769-8-5-3"
+           d="m 105.00536,334.14271 100.48695,0"
+           style="fill:none;stroke:#000000;stroke-width:10.16270161;stroke-linecap:butt;stroke-linejoin:miter;stroke-miterlimit:4;stroke-opacity:1;stroke-dasharray:none" />
+      </g>
+      <flowRoot
+         xml:space="preserve"
+         id="flowRoot6133-5-5-0"
+         style="font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;font-size:16px;line-height:125%;font-family:'Liberation Sans';-inkscape-font-specification:'Liberation Sans';text-align:center;letter-spacing:0px;word-spacing:0px;writing-mode:lr-tb;text-anchor:middle;fill:#000000;fill-opacity:1;stroke:none"
+         transform="translate(110.96741,530.77028)"
+         inkscape:export-filename="/home/smik/Work/phd/research/my-publications/pub1_privacy-preserving-soa-for-the-energy-internet/figures/sm-hybrid.png"
+         inkscape:export-xdpi="100"
+         inkscape:export-ydpi="100"><flowRegion
+           id="flowRegion6135-98-9-3"><rect
+             id="rect6137-5-8-6"
+             width="121.62236"
+             height="47.376144"
+             x="66.46804"
+             y="422.33005"
+             style="text-align:center;text-anchor:middle" /></flowRegion><flowPara
+           id="flowPara6141-49-6-9">Forbruger</flowPara></flowRoot>    </g>
+    <flowRoot
+       inkscape:transform-center-x="-5.1734305"
+       inkscape:export-ydpi="100"
+       inkscape:export-xdpi="100"
+       inkscape:export-filename="/home/smik/Work/phd/research/my-publications/pub1_privacy-preserving-soa-for-the-energy-internet/figures/sm-private-cloud.png"
+       transform="matrix(1.0418172,0,0,1.0358947,-24.608563,348.63027)"
+       style="font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;font-size:16px;line-height:125%;font-family:'Liberation Sans';-inkscape-font-specification:'Liberation Sans';text-align:center;letter-spacing:0px;word-spacing:0px;writing-mode:lr-tb;text-anchor:middle;fill:#000000;fill-opacity:1;stroke:none"
+       id="flowRoot3936-0-4-1-6-2"
+       xml:space="preserve"><flowRegion
+         id="flowRegion3938-2-6-7-0-3"><rect
+           style="text-align:center;text-anchor:middle"
+           y="430.81534"
+           x="109.60155"
+           height="54.707829"
+           width="77.974846"
+           id="rect3940-2-6-5-1-5" /></flowRegion><flowPara
+         style="font-size:14.4390192px"
+         id="flowPara7000-0">PPT</flowPara></flowRoot>    <flowRoot
+       xml:space="preserve"
+       id="flowRoot9142"
+       style="font-size:16px;font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;text-align:start;line-height:125%;letter-spacing:0px;word-spacing:0px;writing-mode:lr-tb;text-anchor:start;fill:#000000;fill-opacity:1;stroke:none;font-family:Liberation Sans;-inkscape-font-specification:Liberation Sans"
+       transform="matrix(1.5065204,0,0,1.5065204,-2.3955121,-35.74797)"><flowRegion
+         id="flowRegion9144"><rect
+           id="rect9146"
+           width="433.68976"
+           height="32.526657"
+           x="27"
+           y="-82.637802" /></flowRegion><flowPara
+         id="flowPara9148"
+         style="font-size:20px;font-weight:bold;-inkscape-font-specification:Ubuntu Bold">Model I: Pure Internet of Things (IoT)</flowPara></flowRoot>    <rect
+       style="color:#000000;fill:#f0f0f0;fill-opacity:1;fill-rule:nonzero;stroke:none;stroke-width:1.99999976;marker:none;visibility:visible;display:inline;overflow:visible;enable-background:accumulate"
+       id="rect9189"
+       width="196"
+       height="260"
+       x="37.000004"
+       y="-111.63806"
+       rx="0"
+       ry="0" />
+    <flowRoot
+       xml:space="preserve"
+       id="flowRoot9191"
+       style="font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;font-size:20px;line-height:125%;font-family:'Liberation Sans';-inkscape-font-specification:'Liberation Sans';text-align:start;letter-spacing:0px;word-spacing:0px;writing-mode:lr-tb;text-anchor:start;fill:#000000;fill-opacity:1;stroke:none"
+       transform="translate(-58.402436,-168.5609)"
+       inkscape:export-filename="/home/smik/Work/phd/research/my-publications/pub1_privacy-preserving-soa-for-the-energy-internet/figures/sm-hybrid.png"
+       inkscape:export-xdpi="100"
+       inkscape:export-ydpi="100"><flowRegion
+         id="flowRegion9193"><rect
+           id="rect9195"
+           width="219.27058"
+           height="55.204578"
+           x="86.974136"
+           y="59.58427"
+           style="font-size:20px" /></flowRegion><flowPara
+         style="font-weight:normal;font-size:20px;-inkscape-font-specification:'Liberation Sans';text-align:center;text-anchor:middle"
+         id="flowPara9197">Hjemmet</flowPara></flowRoot>    <path
+       id="path9199"
+       style="color:#000000;fill:#ffffff;fill-opacity:1;stroke:#000000;stroke-width:2.5;stroke-linecap:round;stroke-linejoin:miter;stroke-miterlimit:4;stroke-opacity:1;stroke-dashoffset:0;marker:none;visibility:visible;display:inline;overflow:visible;enable-background:accumulate"
+       d="M 52.340091,13.57014 132,-66.0692 211.65991,13.57014 m -23.11737,-7.61133 -0.21447,100.83431 -112.656139,0 0.42894,-103.62169"
+       inkscape:connector-curvature="0"
+       sodipodi:nodetypes="ccccccc"
+       inkscape:export-filename="/home/smik/Work/phd/research/my-publications/pub1_privacy-preserving-soa-for-the-energy-internet/figures/sm-hybrid.png"
+       inkscape:export-xdpi="100"
+       inkscape:export-ydpi="100" />
+    <rect
+       rx="5.0000005"
+       ry="5"
+       y="4.1047134"
+       x="96.685921"
+       height="82.463554"
+       width="85.05481"
+       id="rect4806"
+       style="color:#000000;fill:#ffffff;fill-opacity:1;fill-rule:nonzero;stroke:#000000;stroke-width:2;stroke-linecap:round;stroke-linejoin:miter;stroke-miterlimit:4;stroke-opacity:1;stroke-dasharray:none;stroke-dashoffset:0;marker:none;visibility:visible;display:inline;overflow:visible;enable-background:accumulate"
+       inkscape:export-filename="/home/smik/Work/phd/research/my-publications/pub1_privacy-preserving-soa-for-the-energy-internet/figures/sm-hybrid.png"
+       inkscape:export-xdpi="100"
+       inkscape:export-ydpi="100" />
+    <rect
+       inkscape:export-ydpi="100"
+       inkscape:export-xdpi="100"
+       inkscape:export-filename="/home/smik/Work/phd/research/my-publications/pub1_privacy-preserving-soa-for-the-energy-internet/figures/sm-hybrid.png"
+       style="color:#000000;fill:#ffffff;fill-opacity:1;fill-rule:nonzero;stroke:#000000;stroke-width:2;stroke-linecap:round;stroke-linejoin:miter;stroke-miterlimit:4;stroke-opacity:1;stroke-dasharray:none;stroke-dashoffset:0;marker:none;visibility:visible;display:inline;overflow:visible;enable-background:accumulate"
+       id="rect4804"
+       width="85.05481"
+       height="82.463554"
+       x="90.685921"
+       y="10.104713"
+       ry="5"
+       rx="5.0000005" />
+    <rect
+       rx="5.0000005"
+       ry="5"
+       y="16.104713"
+       x="84.685921"
+       height="82.463554"
+       width="85.05481"
+       id="rect9203"
+       style="color:#000000;fill:#ffffff;fill-opacity:1;fill-rule:nonzero;stroke:#000000;stroke-width:2;stroke-linecap:round;stroke-linejoin:miter;stroke-miterlimit:4;stroke-opacity:1;stroke-dasharray:none;stroke-dashoffset:0;marker:none;visibility:visible;display:inline;overflow:visible;enable-background:accumulate"
+       inkscape:export-filename="/home/smik/Work/phd/research/my-publications/pub1_privacy-preserving-soa-for-the-energy-internet/figures/sm-hybrid.png"
+       inkscape:export-xdpi="100"
+       inkscape:export-ydpi="100" />
+    <flowRoot
+       xml:space="preserve"
+       id="flowRoot9207"
+       style="font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;font-size:13.27158737px;line-height:125%;font-family:'Liberation Sans';-inkscape-font-specification:'Liberation Sans';text-align:start;letter-spacing:0px;word-spacing:0px;writing-mode:lr-tb;text-anchor:start;fill:#000000;fill-opacity:1;stroke:none"
+       transform="matrix(1.0995802,0,0,1.0952283,-30.476431,-449.97668)"
+       inkscape:export-filename="/home/smik/Work/phd/research/my-publications/pub1_privacy-preserving-soa-for-the-energy-internet/figures/sm-hybrid.png"
+       inkscape:export-xdpi="100"
+       inkscape:export-ydpi="100"><flowRegion
+         id="flowRegion9209"><rect
+           id="rect9211"
+           width="66.266739"
+           height="51.19175"
+           x="109.60155"
+           y="430.81534"
+           style="font-size:13.27158737px" /></flowRegion><flowPara
+         id="flowPara9213"
+         style="font-size:11.17607403px;text-align:center;text-anchor:middle">Intelligent</flowPara><flowPara
+         style="font-size:11.17607403px;text-align:center;text-anchor:middle"
+         id="flowPara9215">apparat</flowPara></flowRoot>    <path
+       inkscape:export-ydpi="100"
+       inkscape:export-xdpi="100"
+       inkscape:export-filename="/home/smik/Work/phd/research/my-publications/pub1_privacy-preserving-soa-for-the-energy-internet/figures/sm-private-cloud.png"
+       inkscape:connector-curvature="0"
+       id="path4250-6-9"
+       d="m 212.25179,39.36196 45.49641,0"
+       style="fill:none;stroke:#000000;stroke-width:3.65577483;stroke-linecap:butt;stroke-linejoin:miter;stroke-miterlimit:4;stroke-opacity:1;stroke-dasharray:none;marker-start:url(#Arrow1Sstart);marker-end:url(#Arrow1Send)" />
+    <g
+       id="g8876-9-1"
+       transform="translate(-31.469329,-786.91923)">
+      <g
+         transform="matrix(0.29519709,0,0,0.29519709,362.37035,816.99446)"
+         id="g6117-6-7-8-9"
+         inkscape:export-filename="/home/smik/Work/phd/research/my-publications/pub1_privacy-preserving-soa-for-the-energy-internet/figures/sm-hybrid.png"
+         inkscape:export-xdpi="100"
+         inkscape:export-ydpi="100">
+        <path
+           sodipodi:type="arc"
+           style="color:#000000;fill:none;stroke:#000000;stroke-width:10.16270161;stroke-linecap:round;stroke-linejoin:miter;stroke-miterlimit:4;stroke-opacity:1;stroke-dasharray:none;stroke-dashoffset:0;marker:none;visibility:visible;display:inline;overflow:visible;enable-background:accumulate"
+           id="path6119-8-7-7-5"
+           sodipodi:cx="156.57364"
+           sodipodi:cy="251.31122"
+           sodipodi:rx="29.294424"
+           sodipodi:ry="29.294424"
+           d="m 185.86806,251.31122 a 29.294424,29.294424 0 0 1 -29.29442,29.29442 29.294424,29.294424 0 0 1 -29.29443,-29.29442 29.294424,29.294424 0 0 1 29.29443,-29.29443 29.294424,29.294424 0 0 1 29.29442,29.29443 z"
+           transform="translate(-1.3248039,31.112698)" />
+        <path
+           id="path6121-6-4-7-3"
+           style="fill:none;stroke:#000000;stroke-width:10.16270161;stroke-linecap:butt;stroke-linejoin:miter;stroke-miterlimit:4;stroke-opacity:1;stroke-dasharray:none"
+           d="m 155.24843,400.00404 47.22463,38.43794 m -47.22383,-126.82465 0,88.38671 -47.22462,38.43794"
+           inkscape:connector-curvature="0" />
+        <path
+           style="fill:none;stroke:#000000;stroke-width:10.16270161;stroke-linecap:butt;stroke-linejoin:miter;stroke-miterlimit:4;stroke-opacity:1;stroke-dasharray:none"
+           d="m 105.00536,334.14271 100.48695,0"
+           id="path6123-1-6-5-0"
+           inkscape:connector-curvature="0" />
+      </g>
+      <flowRoot
+         xml:space="preserve"
+         id="flowRoot6133-2-8-6-1-2"
+         style="font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;font-size:16px;line-height:125%;font-family:'Liberation Sans';-inkscape-font-specification:'Liberation Sans';text-align:center;letter-spacing:0px;word-spacing:0px;writing-mode:lr-tb;text-anchor:middle;fill:#000000;fill-opacity:1;stroke:none"
+         transform="translate(263.7185,530.77028)"
+         inkscape:export-filename="/home/smik/Work/phd/research/my-publications/pub1_privacy-preserving-soa-for-the-energy-internet/figures/sm-hybrid.png"
+         inkscape:export-xdpi="100"
+         inkscape:export-ydpi="100"><flowRegion
+           id="flowRegion6135-9-1-2-3-7"><rect
+             id="rect6137-0-8-3-4-8"
+             width="149.62234"
+             height="45.376129"
+             x="66.46804"
+             y="422.33005"
+             style="text-align:center;text-anchor:middle" /></flowRegion><flowPara
+           id="flowPara8445-5-2">Distributionssystem-</flowPara><flowPara
+           id="flowPara4620">operatør</flowPara></flowRoot>    </g>
+    <g
+       id="g8865-3-6"
+       transform="translate(-16.469329,-909.91923)">
+      <g
+         id="g6125-2-6-7-2"
+         transform="matrix(0.29519709,0,0,0.29519709,527.40508,816.99446)"
+         inkscape:export-filename="/home/smik/Work/phd/research/my-publications/pub1_privacy-preserving-soa-for-the-energy-internet/figures/sm-hybrid.png"
+         inkscape:export-xdpi="100"
+         inkscape:export-ydpi="100">
+        <path
+           transform="translate(-1.3248039,31.112698)"
+           d="m 185.86806,251.31122 a 29.294424,29.294424 0 0 1 -29.29442,29.29442 29.294424,29.294424 0 0 1 -29.29443,-29.29442 29.294424,29.294424 0 0 1 29.29443,-29.29443 29.294424,29.294424 0 0 1 29.29442,29.29443 z"
+           sodipodi:ry="29.294424"
+           sodipodi:rx="29.294424"
+           sodipodi:cy="251.31122"
+           sodipodi:cx="156.57364"
+           id="path6127-6-0-6-0"
+           style="color:#000000;fill:none;stroke:#000000;stroke-width:10.16270161;stroke-linecap:round;stroke-linejoin:miter;stroke-miterlimit:4;stroke-opacity:1;stroke-dasharray:none;stroke-dashoffset:0;marker:none;visibility:visible;display:inline;overflow:visible;enable-background:accumulate"
+           sodipodi:type="arc" />
+        <path
+           inkscape:connector-curvature="0"
+           d="m 155.24843,400.00404 47.22463,38.43794 m -47.22383,-126.82465 0,88.38671 -47.22462,38.43794"
+           style="fill:none;stroke:#000000;stroke-width:10.16270161;stroke-linecap:butt;stroke-linejoin:miter;stroke-miterlimit:4;stroke-opacity:1;stroke-dasharray:none"
+           id="path6129-2-8-2-1" />
+        <path
+           inkscape:connector-curvature="0"
+           id="path6131-8-1-7-5"
+           d="m 105.00536,334.14271 100.48695,0"
+           style="fill:none;stroke:#000000;stroke-width:10.16270161;stroke-linecap:butt;stroke-linejoin:miter;stroke-miterlimit:4;stroke-opacity:1;stroke-dasharray:none" />
+      </g>
+      <flowRoot
+         xml:space="preserve"
+         id="flowRoot6133-7-1-3-4-4"
+         style="font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;font-size:16px;line-height:125%;font-family:'Liberation Sans';-inkscape-font-specification:'Liberation Sans';text-align:center;letter-spacing:0px;word-spacing:0px;writing-mode:lr-tb;text-anchor:middle;fill:#000000;fill-opacity:1;stroke:none"
+         transform="translate(413.95424,530.77028)"
+         inkscape:export-filename="/home/smik/Work/phd/research/my-publications/pub1_privacy-preserving-soa-for-the-energy-internet/figures/sm-hybrid.png"
+         inkscape:export-xdpi="100"
+         inkscape:export-ydpi="100"><flowRegion
+           id="flowRegion6135-92-1-4-7-1"><rect
+             id="rect6137-7-4-4-3-9"
+             width="182.87717"
+             height="42.630951"
+             x="66.46804"
+             y="422.33005"
+             style="text-align:center;text-anchor:middle" /></flowRegion><flowPara
+           id="flowPara9620">3. parts</flowPara><flowPara
+           id="flowPara4624">serviceudbyder</flowPara></flowRoot>    </g>
+    <g
+       id="g8887-3-5"
+       transform="translate(-31.469329,-786.91923)">
+      <g
+         id="g3777-7-6-6-5"
+         transform="matrix(0.29519709,0,0,0.29519709,191.00341,816.99446)"
+         inkscape:export-filename="/home/smik/Work/phd/research/my-publications/pub1_privacy-preserving-soa-for-the-energy-internet/figures/sm-hybrid.png"
+         inkscape:export-xdpi="100"
+         inkscape:export-ydpi="100">
+        <path
+           transform="translate(-1.3248039,31.112698)"
+           d="m 185.86806,251.31122 a 29.294424,29.294424 0 0 1 -29.29442,29.29442 29.294424,29.294424 0 0 1 -29.29443,-29.29442 29.294424,29.294424 0 0 1 29.29443,-29.29443 29.294424,29.294424 0 0 1 29.29442,29.29443 z"
+           sodipodi:ry="29.294424"
+           sodipodi:rx="29.294424"
+           sodipodi:cy="251.31122"
+           sodipodi:cx="156.57364"
+           id="path2987-4-5-0-1"
+           style="color:#000000;fill:none;stroke:#000000;stroke-width:10.16270161;stroke-linecap:round;stroke-linejoin:miter;stroke-miterlimit:4;stroke-opacity:1;stroke-dasharray:none;stroke-dashoffset:0;marker:none;visibility:visible;display:inline;overflow:visible;enable-background:accumulate"
+           sodipodi:type="arc" />
+        <path
+           inkscape:connector-curvature="0"
+           d="m 155.24843,400.00404 47.22463,38.43794 m -47.22383,-126.82465 0,88.38671 -47.22462,38.43794"
+           style="fill:none;stroke:#000000;stroke-width:10.16270161;stroke-linecap:butt;stroke-linejoin:miter;stroke-miterlimit:4;stroke-opacity:1;stroke-dasharray:none"
+           id="path2997-8-6-1-1" />
+        <path
+           inkscape:connector-curvature="0"
+           id="path3769-8-5-3-7"
+           d="m 105.00536,334.14271 100.48695,0"
+           style="fill:none;stroke:#000000;stroke-width:10.16270161;stroke-linecap:butt;stroke-linejoin:miter;stroke-miterlimit:4;stroke-opacity:1;stroke-dasharray:none" />
+      </g>
+      <flowRoot
+         xml:space="preserve"
+         id="flowRoot6133-5-5-0-5"
+         style="font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;font-size:16px;line-height:125%;font-family:'Liberation Sans';-inkscape-font-specification:'Liberation Sans';text-align:center;letter-spacing:0px;word-spacing:0px;writing-mode:lr-tb;text-anchor:middle;fill:#000000;fill-opacity:1;stroke:none"
+         transform="translate(110.96741,530.77028)"
+         inkscape:export-filename="/home/smik/Work/phd/research/my-publications/pub1_privacy-preserving-soa-for-the-energy-internet/figures/sm-hybrid.png"
+         inkscape:export-xdpi="100"
+         inkscape:export-ydpi="100"><flowRegion
+           id="flowRegion6135-98-9-3-6"><rect
+             id="rect6137-5-8-6-4"
+             width="121.62236"
+             height="47.376144"
+             x="66.46804"
+             y="422.33005"
+             style="text-align:center;text-anchor:middle" /></flowRegion><flowPara
+           id="flowPara6141-49-6-9-5">Forbruger</flowPara></flowRoot>    </g>
+    <path
+       transform="translate(0,-212.99803)"
+       inkscape:connector-curvature="0"
+       id="path9575"
+       d="m 169,352.35999 -37,0 0,-26"
+       style="fill:none;stroke:#000000;stroke-width:3;stroke-linecap:butt;stroke-linejoin:miter;stroke-opacity:1;stroke-miterlimit:4;stroke-dasharray:none" />
+    <path
+       inkscape:connector-curvature="0"
+       id="path9577"
+       d="m 347,138.11932 -25,0 0,-41.757351"
+       style="fill:none;stroke:#000000;stroke-width:3;stroke-linecap:butt;stroke-linejoin:miter;stroke-miterlimit:4;stroke-opacity:1;stroke-dasharray:none" />
+    <path
+       transform="translate(0,-212.99803)"
+       inkscape:connector-curvature="0"
+       id="path9579"
+       d="m 194,745.35999 -58,0 0,-25"
+       style="fill:none;stroke:#000000;stroke-width:3;stroke-linecap:butt;stroke-linejoin:miter;stroke-opacity:1;stroke-miterlimit:4;stroke-dasharray:none" />
+    <path
+       transform="translate(0,-212.99803)"
+       inkscape:connector-curvature="0"
+       id="path9583"
+       d="m 262,745.35999 80,0 0,-45"
+       style="fill:none;stroke:#000000;stroke-width:3;stroke-linecap:butt;stroke-linejoin:miter;stroke-opacity:1;stroke-miterlimit:4;stroke-dasharray:6,6;stroke-dashoffset:0" />
+    <path
+       transform="translate(0,-212.99803)"
+       inkscape:connector-curvature="0"
+       id="path9585"
+       d="m 430,741.35999 71.99999,0 0,-63"
+       style="fill:none;stroke:#000000;stroke-width:3;stroke-linecap:butt;stroke-linejoin:miter;stroke-opacity:1;stroke-miterlimit:4;stroke-dasharray:none" />
+    <path
+       transform="translate(0,-212.99803)"
+       inkscape:connector-curvature="0"
+       id="path9591"
+       d="m 430,1133.36 70.54415,0 -1.41421,-65.6274"
+       style="fill:none;stroke:#000000;stroke-width:3;stroke-linecap:butt;stroke-linejoin:miter;stroke-miterlimit:4;stroke-dasharray:none;stroke-opacity:1"
+       sodipodi:nodetypes="ccc" />
+    <path
+       transform="translate(0,-212.99803)"
+       inkscape:connector-curvature="0"
+       id="path9593"
+       d="m 387,1131.36 -47,0 0,-33"
+       style="fill:none;stroke:#000000;stroke-width:3;stroke-linecap:butt;stroke-linejoin:miter;stroke-opacity:1;stroke-miterlimit:4;stroke-dasharray:6,6;stroke-dashoffset:0" />
+    <path
+       transform="translate(0,-212.99803)"
+       inkscape:connector-curvature="0"
+       id="path9595"
+       d="m 262,1131.36 57,0 0,-37"
+       style="fill:none;stroke:#000000;stroke-width:3;stroke-linecap:butt;stroke-linejoin:miter;stroke-opacity:1;stroke-miterlimit:4;stroke-dasharray:6,6;marker-start:none;marker-mid:none;stroke-dashoffset:0" />
+    <path
+       transform="translate(0,-212.99803)"
+       inkscape:connector-curvature="0"
+       id="path9597"
+       d="m 215,1130.36 -85,0 0,-17"
+       style="fill:none;stroke:#000000;stroke-width:3;stroke-linecap:butt;stroke-linejoin:miter;stroke-opacity:1;stroke-miterlimit:4;stroke-dasharray:none" />
+    <path
+       transform="translate(0,-212.99803)"
+       inkscape:connector-curvature="0"
+       id="path9612"
+       d="M 515.99999,221.36 445,221.36"
+       style="fill:none;stroke:#000000;stroke-width:3;stroke-linecap:butt;stroke-linejoin:miter;stroke-opacity:1;stroke-miterlimit:4;stroke-dasharray:none" />
+    <rect
+       inkscape:export-ydpi="100"
+       inkscape:export-xdpi="100"
+       inkscape:export-filename="/home/smik/g4184-9.png"
+       style="color:#000000;fill:#ffffff;fill-opacity:1;fill-rule:nonzero;stroke:#000000;stroke-width:2.05705142;stroke-linecap:round;stroke-linejoin:miter;stroke-miterlimit:4;stroke-opacity:1;stroke-dasharray:none;stroke-dashoffset:0;marker:none;visibility:visible;display:inline;overflow:visible;enable-background:accumulate"
+       id="rect3934-0-39-0-2-6-3-3-1-7"
+       width="87.908371"
+       height="31.966652"
+       x="293.04581"
+       y="384.37863"
+       ry="5"
+       rx="5.0000005" />
+    <flowRoot
+       inkscape:export-ydpi="100"
+       inkscape:export-xdpi="100"
+       inkscape:export-filename="/home/smik/g4184-9.png"
+       transform="matrix(1.0879465,0,0,1.096453,171.55101,-82.009303)"
+       style="font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;font-size:11.02207756px;line-height:125%;font-family:'Liberation Sans';-inkscape-font-specification:'Liberation Sans';text-align:start;letter-spacing:0px;word-spacing:0px;writing-mode:lr-tb;text-anchor:start;fill:#000000;fill-opacity:1;stroke:none"
+       id="flowRoot3936-0-1-0-0-7-2-4-4-2"
+       xml:space="preserve"><flowRegion
+         id="flowRegion3938-2-5-0-5-4-9-4-6-5"><rect
+           style="font-size:11.02207756px"
+           y="430.81534"
+           x="109.60155"
+           height="47.500668"
+           width="84.498062"
+           id="rect3940-2-5-4-3-2-3-3-7-3" /></flowRegion><flowPara
+         style="font-size:13.73385525px;text-align:center;text-anchor:middle"
+         id="flowPara3678-5">PPT</flowPara></flowRoot>    <g
+       transform="matrix(0.89128468,0,0,0.87295817,119.23114,-174.17796)"
+       id="g3865-2-8-4-0-3">
+      <g
+         id="g7011-5-5-2">
+        <path
+           sodipodi:nodetypes="ccsccsssss"
+           inkscape:connector-curvature="0"
+           d="m 279.05382,245.47889 6.8e-4,30.93185 c 6.9e-4,3.52263 -10.12995,6.37187 -22.62673,6.37187 -12.49678,0 -22.62742,-2.84924 -22.62903,-6.37187 l -0.002,-31.27648 m 45.25481,0.38778 c 0,3.51472 -10.13064,6.36396 -22.62742,6.36396 -12.49678,0 -22.62742,-2.84924 -22.62742,-6.36396 0,-3.51472 10.13064,-6.36396 22.62742,-6.36396 12.49678,0 22.62742,2.84924 22.62742,6.36396 z"
+           style="color:#000000;fill:#ffffff;fill-opacity:1;stroke:#000000;stroke-width:2.47667122;stroke-linecap:round;stroke-linejoin:miter;stroke-miterlimit:4;stroke-opacity:1;stroke-dashoffset:0;marker:none;visibility:visible;display:inline;overflow:visible;enable-background:accumulate"
+           id="path3012-9-8-34-3-4-4" />
+      </g>
+    </g>
+    <flowRoot
+       xml:space="preserve"
+       id="flowRoot3002-2-3-9-7-3"
+       style="font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;font-size:16px;line-height:125%;font-family:'Liberation Sans';-inkscape-font-specification:'Liberation Sans';text-align:center;letter-spacing:0px;word-spacing:0px;writing-mode:lr-tb;text-anchor:middle;fill:#000000;fill-opacity:1;stroke:none"
+       transform="matrix(0.54357002,0,0,0.54357002,268.96604,-188.47201)"><flowRegion
+         id="flowRegion3004-7-4-1-7-0"><rect
+           style="text-align:center;text-anchor:middle"
+           id="rect3006-0-8-9-03-8"
+           width="68.323853"
+           height="47.226688"
+           x="109.60155"
+           y="430.81534" /></flowRegion><flowPara
+         style="font-size:17.555439px"
+         id="flowPara3008-6-8-8-29-3">Data</flowPara><flowPara
+         style="font-size:17.555439px"
+         id="flowPara7002-2-1-3">lagring</flowPara></flowRoot>    <rect
+       rx="5"
+       ry="5"
+       y="369.33014"
+       x="519.71033"
+       height="81.292152"
+       width="85.415848"
+       id="rect5775-9-5-8-8-4"
+       style="color:#000000;fill:#ffffff;fill-opacity:1;fill-rule:nonzero;stroke:#000000;stroke-width:2.05705142;stroke-linecap:round;stroke-linejoin:miter;stroke-miterlimit:4;stroke-opacity:1;stroke-dasharray:none;stroke-dashoffset:0;marker:none;visibility:visible;display:inline;overflow:visible;enable-background:accumulate"
+       inkscape:export-filename="/home/smik/Work/phd/research/my-publications/pub1_privacy-preserving-soa-for-the-energy-internet/figures/sm-pure-iot.png"
+       inkscape:export-xdpi="100"
+       inkscape:export-ydpi="100" />
+    <rect
+       inkscape:export-ydpi="100"
+       inkscape:export-xdpi="100"
+       inkscape:export-filename="/home/smik/Work/phd/research/my-publications/pub1_privacy-preserving-soa-for-the-energy-internet/figures/sm-pure-iot.png"
+       style="color:#000000;fill:#ffffff;fill-opacity:1;fill-rule:nonzero;stroke:#000000;stroke-width:2.05705142;stroke-linecap:round;stroke-linejoin:miter;stroke-miterlimit:4;stroke-opacity:1;stroke-dasharray:none;stroke-dashoffset:0;marker:none;visibility:visible;display:inline;overflow:visible;enable-background:accumulate"
+       id="rect3934-0-39-6-7-9-38-8-8"
+       width="85.415848"
+       height="84.292152"
+       x="515.71472"
+       y="374.28394"
+       ry="5.0000005"
+       rx="5" />
+    <rect
+       inkscape:export-ydpi="100"
+       inkscape:export-xdpi="100"
+       inkscape:export-filename="/home/smik/Work/phd/research/my-publications/pub1_privacy-preserving-soa-for-the-energy-internet/figures/sm-pure-iot.png"
+       style="color:#000000;fill:#ffffff;fill-opacity:1;fill-rule:nonzero;stroke:#000000;stroke-width:2.05705142;stroke-linecap:round;stroke-linejoin:miter;stroke-miterlimit:4;stroke-opacity:1;stroke-dasharray:none;stroke-dashoffset:0;marker:none;visibility:visible;display:inline;overflow:visible;enable-background:accumulate"
+       id="rect3934-0-39-0-2-6-8-9"
+       width="85.415848"
+       height="84.292152"
+       x="511.13193"
+       y="379.72357"
+       ry="5.0000005"
+       rx="5" />
+    <flowRoot
+       inkscape:export-ydpi="100"
+       inkscape:export-xdpi="100"
+       inkscape:export-filename="/home/smik/Work/phd/research/my-publications/pub1_privacy-preserving-soa-for-the-energy-internet/figures/sm-pure-iot.png"
+       transform="matrix(1.4778804,0,0,1.4894357,330.09184,-260.60593)"
+       style="font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;font-size:11.02207756px;line-height:125%;font-family:'Liberation Sans';-inkscape-font-specification:'Liberation Sans';text-align:start;letter-spacing:0px;word-spacing:0px;writing-mode:lr-tb;text-anchor:start;fill:#000000;fill-opacity:1;stroke:none"
+       id="flowRoot3936-0-1-0-0-7-6-6"
+       xml:space="preserve"><flowRegion
+         id="flowRegion3938-2-5-0-5-4-3-5"><rect
+           style="font-size:11.02207756px"
+           y="430.81534"
+           x="109.60155"
+           height="47.500668"
+           width="84.498062"
+           id="rect3940-2-5-4-3-2-0-0" /></flowRegion><flowPara
+         id="flowPara7024-0-3-0"
+         style="font-size:11.02207756px;text-align:center;text-anchor:middle">Software</flowPara><flowPara
+         style="font-size:11.02207756px;text-align:center;text-anchor:middle"
+         id="flowPara4640">service</flowPara></flowRoot>    <g
+       transform="matrix(0.89128468,0,0,0.87295817,325.36021,213.3828)"
+       id="g3865-2-8-4-0-3-3">
+      <g
+         id="g7011-5-5-2-9">
+        <path
+           sodipodi:nodetypes="ccsccsssss"
+           inkscape:connector-curvature="0"
+           d="m 279.05382,245.47889 6.8e-4,30.93185 c 6.9e-4,3.52263 -10.12995,6.37187 -22.62673,6.37187 -12.49678,0 -22.62742,-2.84924 -22.62903,-6.37187 l -0.002,-31.27648 m 45.25481,0.38778 c 0,3.51472 -10.13064,6.36396 -22.62742,6.36396 -12.49678,0 -22.62742,-2.84924 -22.62742,-6.36396 0,-3.51472 10.13064,-6.36396 22.62742,-6.36396 12.49678,0 22.62742,2.84924 22.62742,6.36396 z"
+           style="color:#000000;fill:#ffffff;fill-opacity:1;stroke:#000000;stroke-width:2.47667122;stroke-linecap:round;stroke-linejoin:miter;stroke-miterlimit:4;stroke-opacity:1;stroke-dashoffset:0;marker:none;visibility:visible;display:inline;overflow:visible;enable-background:accumulate"
+           id="path3012-9-8-34-3-4-4-8" />
+      </g>
+    </g>
+    <flowRoot
+       xml:space="preserve"
+       id="flowRoot3002-2-3-9-7-3-3"
+       style="font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;font-size:16px;line-height:125%;font-family:'Liberation Sans';-inkscape-font-specification:'Liberation Sans';text-align:center;letter-spacing:0px;word-spacing:0px;writing-mode:lr-tb;text-anchor:middle;fill:#000000;fill-opacity:1;stroke:none"
+       transform="matrix(0.54357002,0,0,0.54357002,475.09511,198.1494)"><flowRegion
+         id="flowRegion3004-7-4-1-7-0-1"><rect
+           style="text-align:center;text-anchor:middle"
+           id="rect3006-0-8-9-03-8-5"
+           width="68.323853"
+           height="47.226688"
+           x="109.60155"
+           y="430.81534" /></flowRegion><flowPara
+         style="font-size:17.555439px"
+         id="flowPara3008-6-8-8-29-3-7">Data</flowPara><flowPara
+         style="font-size:17.555439px"
+         id="flowPara7002-2-1-3-5">lagring</flowPara></flowRoot>    <path
+       inkscape:export-ydpi="100"
+       inkscape:export-xdpi="100"
+       inkscape:export-filename="/home/smik/Work/phd/research/my-publications/pub1_privacy-preserving-soa-for-the-energy-internet/figures/sm-private-cloud.png"
+       sodipodi:nodetypes="scscscsscsscscsscscs"
+       inkscape:connector-curvature="0"
+       id="path3905-27-1-0"
+       d="m 536.145,757.24238 c -16.2836,0 -29.7887,8.22476 -32.28878,18.99811 -14.39736,3.95264 -24.6644,14.22774 -24.6644,26.23155 0,7.08736 3.56934,13.5324 9.46156,18.45768 -9.34798,3.71882 -15.3406,9.41451 -15.3406,15.79713 0,9.58095 13.48388,17.57936 31.59982,19.70483 -10e-4,0.0831 0,0.1662 0,0.24943 0,11.57144 18.91848,20.95198 42.25561,20.95198 1.42756,0 2.83438,-0.0562 4.22556,-0.12461 6.29879,3.77381 14.90652,6.111 24.43475,6.111 19.27848,0 34.9068,-9.5294 34.9068,-21.28455 0,-0.70681 -0.0733,-1.431 -0.18381,-2.12014 13.73251,-1.15764 24.43473,-10.92833 24.43473,-22.82269 0,-4.69975 -1.6747,-9.08261 -4.54705,-12.72084 9.63771,-3.78663 16.30516,-11.68146 16.30516,-20.86889 0,-12.85718 -12.99619,-23.27999 -29.02778,-23.27999 -1.11504,0 -2.22459,0.0265 -3.30694,0.12474 -0.38872,-12.97731 -14.88557,-23.40466 -32.70215,-23.40466 -8.73287,0 -16.64039,2.48428 -22.50571,6.56825 -5.91388,-4.07192 -14.0522,-6.56825 -23.05688,-6.56825 z"
+       style="color:#000000;fill:#ffffff;fill-opacity:1;fill-rule:nonzero;stroke:#000000;stroke-width:2.1533668;stroke-linecap:round;stroke-linejoin:miter;stroke-miterlimit:4;stroke-opacity:1;stroke-dasharray:none;stroke-dashoffset:0;marker:none;visibility:visible;display:inline;overflow:visible;enable-background:accumulate" />
+    <rect
+       rx="5"
+       ry="5"
+       y="772.60077"
+       x="522.28833"
+       height="81.292152"
+       width="85.415848"
+       id="rect5775-9-5-8-8-4-5"
+       style="color:#000000;fill:#ffffff;fill-opacity:1;fill-rule:nonzero;stroke:#000000;stroke-width:2.05705142;stroke-linecap:round;stroke-linejoin:miter;stroke-miterlimit:4;stroke-opacity:1;stroke-dasharray:none;stroke-dashoffset:0;marker:none;visibility:visible;display:inline;overflow:visible;enable-background:accumulate"
+       inkscape:export-filename="/home/smik/Work/phd/research/my-publications/pub1_privacy-preserving-soa-for-the-energy-internet/figures/sm-pure-iot.png"
+       inkscape:export-xdpi="100"
+       inkscape:export-ydpi="100" />
+    <rect
+       inkscape:export-ydpi="100"
+       inkscape:export-xdpi="100"
+       inkscape:export-filename="/home/smik/Work/phd/research/my-publications/pub1_privacy-preserving-soa-for-the-energy-internet/figures/sm-pure-iot.png"
+       style="color:#000000;fill:#ffffff;fill-opacity:1;fill-rule:nonzero;stroke:#000000;stroke-width:2.05705142;stroke-linecap:round;stroke-linejoin:miter;stroke-miterlimit:4;stroke-opacity:1;stroke-dasharray:none;stroke-dashoffset:0;marker:none;visibility:visible;display:inline;overflow:visible;enable-background:accumulate"
+       id="rect3934-0-39-6-7-9-38-8-8-9"
+       width="85.415848"
+       height="84.292152"
+       x="518.29272"
+       y="777.55457"
+       ry="5.0000005"
+       rx="5" />
+    <rect
+       inkscape:export-ydpi="100"
+       inkscape:export-xdpi="100"
+       inkscape:export-filename="/home/smik/Work/phd/research/my-publications/pub1_privacy-preserving-soa-for-the-energy-internet/figures/sm-pure-iot.png"
+       style="color:#000000;fill:#ffffff;fill-opacity:1;fill-rule:nonzero;stroke:#000000;stroke-width:2.05705142;stroke-linecap:round;stroke-linejoin:miter;stroke-miterlimit:4;stroke-opacity:1;stroke-dasharray:none;stroke-dashoffset:0;marker:none;visibility:visible;display:inline;overflow:visible;enable-background:accumulate"
+       id="rect3934-0-39-0-2-6-8-9-5"
+       width="85.415848"
+       height="84.292152"
+       x="513.7099"
+       y="782.9942"
+       ry="5.0000005"
+       rx="5" />
+    <flowRoot
+       inkscape:export-ydpi="100"
+       inkscape:export-xdpi="100"
+       inkscape:export-filename="/home/smik/Work/phd/research/my-publications/pub1_privacy-preserving-soa-for-the-energy-internet/figures/sm-pure-iot.png"
+       transform="matrix(1.4778804,0,0,1.4894357,332.66984,142.66472)"
+       style="font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;font-size:11.02207756px;line-height:125%;font-family:'Liberation Sans';-inkscape-font-specification:'Liberation Sans';text-align:start;letter-spacing:0px;word-spacing:0px;writing-mode:lr-tb;text-anchor:start;fill:#000000;fill-opacity:1;stroke:none"
+       id="flowRoot3936-0-1-0-0-7-6-6-7"
+       xml:space="preserve"><flowRegion
+         id="flowRegion3938-2-5-0-5-4-3-5-3"><rect
+           style="font-size:11.02207756px"
+           y="430.81534"
+           x="109.60155"
+           height="47.500668"
+           width="84.498062"
+           id="rect3940-2-5-4-3-2-0-0-2" /></flowRegion><flowPara
+         id="flowPara7024-0-3-0-5"
+         style="font-size:11.02207756px;text-align:center;text-anchor:middle">Sotware</flowPara><flowPara
+         style="font-size:11.02207756px;text-align:center;text-anchor:middle"
+         id="flowPara4652">service</flowPara></flowRoot>    <g
+       transform="matrix(0.89128468,0,0,0.87295817,327.93821,616.65345)"
+       id="g3865-2-8-4-0-3-3-9">
+      <g
+         id="g7011-5-5-2-9-0">
+        <path
+           sodipodi:nodetypes="ccsccsssss"
+           inkscape:connector-curvature="0"
+           d="m 279.05382,245.47889 6.8e-4,30.93185 c 6.9e-4,3.52263 -10.12995,6.37187 -22.62673,6.37187 -12.49678,0 -22.62742,-2.84924 -22.62903,-6.37187 l -0.002,-31.27648 m 45.25481,0.38778 c 0,3.51472 -10.13064,6.36396 -22.62742,6.36396 -12.49678,0 -22.62742,-2.84924 -22.62742,-6.36396 0,-3.51472 10.13064,-6.36396 22.62742,-6.36396 12.49678,0 22.62742,2.84924 22.62742,6.36396 z"
+           style="color:#000000;fill:#ffffff;fill-opacity:1;stroke:#000000;stroke-width:2.47667122;stroke-linecap:round;stroke-linejoin:miter;stroke-miterlimit:4;stroke-opacity:1;stroke-dashoffset:0;marker:none;visibility:visible;display:inline;overflow:visible;enable-background:accumulate"
+           id="path3012-9-8-34-3-4-4-8-3" />
+      </g>
+    </g>
+    <flowRoot
+       xml:space="preserve"
+       id="flowRoot3002-2-3-9-7-3-3-6"
+       style="font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;font-size:16px;line-height:125%;font-family:'Liberation Sans';-inkscape-font-specification:'Liberation Sans';text-align:center;letter-spacing:0px;word-spacing:0px;writing-mode:lr-tb;text-anchor:middle;fill:#000000;fill-opacity:1;stroke:none"
+       transform="matrix(0.54357002,0,0,0.54357002,477.67311,601.42005)"><flowRegion
+         id="flowRegion3004-7-4-1-7-0-1-2"><rect
+           style="text-align:center;text-anchor:middle"
+           id="rect3006-0-8-9-03-8-5-7"
+           width="68.323853"
+           height="47.226688"
+           x="109.60155"
+           y="430.81534" /></flowRegion><flowPara
+         style="font-size:17.555439px"
+         id="flowPara3008-6-8-8-29-3-7-5">Data</flowPara><flowPara
+         style="font-size:17.555439px"
+         id="flowPara7002-2-1-3-5-3">lagring</flowPara></flowRoot>    <path
+       sodipodi:nodetypes="cccccc"
+       transform="translate(0,-212.99803)"
+       inkscape:connector-curvature="0"
+       id="path3894"
+       d="m 548.71486,718.76644 c 0,0 -31.31621,0.0325 -39.33282,0 -5.51564,-6.23728 -8.9232,-6.16433 -14.67246,0 -7.30677,0 -40.74703,0 -40.74703,0 l 0,-62.22539 -46.66904,0"
+       style="fill:none;stroke:#000000;stroke-width:3;stroke-linecap:butt;stroke-linejoin:miter;stroke-miterlimit:4;stroke-opacity:1;stroke-dasharray:6,6;stroke-dashoffset:6.9" />
+    <path
+       transform="translate(0,-212.99803)"
+       inkscape:connector-curvature="0"
+       id="path4772"
+       d="m 586.19152,718.05934 37.47666,0 0,-48.79037"
+       style="fill:none;stroke:#000000;stroke-width:3;stroke-linecap:butt;stroke-linejoin:miter;stroke-opacity:1;stroke-miterlimit:4;stroke-dasharray:none" />
+    <rect
+       inkscape:transform-center-x="-3.2619322"
+       inkscape:export-ydpi="100"
+       inkscape:export-xdpi="100"
+       inkscape:export-filename="/home/smik/Work/phd/research/my-publications/pub1_privacy-preserving-soa-for-the-energy-internet/figures/sm-private-cloud.png"
+       style="color:#000000;display:inline;overflow:visible;visibility:visible;fill:#ffffff;fill-opacity:1;fill-rule:nonzero;stroke:#000000;stroke-width:1.99999976;stroke-linecap:round;stroke-linejoin:miter;stroke-miterlimit:4;stroke-dasharray:none;stroke-dashoffset:0;stroke-opacity:1;marker:none;enable-background:accumulate"
+       id="rect3934-0-7-0-7-1-9"
+       width="36.80904"
+       height="37.428932"
+       x="90.784775"
+       y="56.425926"
+       ry="5"
+       rx="5" />
+    <flowRoot
+       inkscape:transform-center-x="-5.1734305"
+       inkscape:export-ydpi="100"
+       inkscape:export-xdpi="100"
+       inkscape:export-filename="/home/smik/Work/phd/research/my-publications/pub1_privacy-preserving-soa-for-the-energy-internet/figures/sm-private-cloud.png"
+       transform="matrix(1.0418172,0,0,1.0358947,-26.429843,-390.59129)"
+       style="font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;font-size:16px;line-height:125%;font-family:'Liberation Sans';-inkscape-font-specification:'Liberation Sans';text-align:center;letter-spacing:0px;word-spacing:0px;writing-mode:lr-tb;text-anchor:middle;fill:#000000;fill-opacity:1;stroke:none"
+       id="flowRoot3936-0-4-1-6-2-0"
+       xml:space="preserve"><flowRegion
+         id="flowRegion3938-2-6-7-0-3-4"><rect
+           style="text-align:center;text-anchor:middle"
+           y="430.81534"
+           x="109.60155"
+           height="54.707829"
+           width="77.974846"
+           id="rect3940-2-6-5-1-5-6" /></flowRegion><flowPara
+         style="font-size:9.6260128px"
+         id="flowPara7000-0-1" /></flowRoot>    <path
+       style="fill:none;stroke:#000000;stroke-width:3;stroke-linecap:butt;stroke-linejoin:miter;stroke-miterlimit:4;stroke-opacity:1;stroke-dasharray:6, 6;stroke-dashoffset:6.9"
+       d="m 229.47307,137.79639 71.51473,0 0,-47.121323"
+       id="path5065"
+       inkscape:connector-curvature="0" />
+    <path
+       inkscape:connector-curvature="0"
+       id="path4772-4"
+       d="m 599.27301,921.19367 33.23401,0 0,-68.58936"
+       style="fill:none;stroke:#000000;stroke-width:3;stroke-linecap:butt;stroke-linejoin:miter;stroke-miterlimit:4;stroke-opacity:1;stroke-dasharray:none" />
+    <rect
+       style="color:#000000;fill:#ffffff;fill-opacity:1;stroke:#000000;stroke-width:2;stroke-linecap:round;stroke-linejoin:miter;stroke-miterlimit:4;stroke-opacity:1;stroke-dasharray:none;stroke-dashoffset:3.00100021999999989;marker:none;visibility:visible;display:inline;overflow:visible;enable-background:accumulate"
+       id="rect3701"
+       width="98.967636"
+       height="36.003586"
+       x="83.550125"
+       y="393.45001"
+       rx="4.9999995"
+       ry="4.9999995" />
+    <flowRoot
+       xml:space="preserve"
+       id="flowRoot3703"
+       style="font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;font-size:16px;line-height:125%;font-family:'Liberation Serif';-inkscape-font-specification:'Liberation Serif';text-align:center;letter-spacing:0px;word-spacing:0px;writing-mode:lr-tb;text-anchor:middle;fill:#000000;fill-opacity:1;stroke:none"
+       transform="matrix(0.61176147,0,0,0.59946121,235.86282,-64.876176)"><flowRegion
+         id="flowRegion3705"><rect
+           id="rect3707"
+           width="225.56706"
+           height="70.003571"
+           x="-282.13559"
+           y="774.62787"
+           style="text-align:center;text-anchor:middle" /></flowRegion><flowPara
+         id="flowPara3711"
+         style="font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;font-family:'Liberation Sans';-inkscape-font-specification:'Liberation Sans'">Hjemmestyrings-</flowPara><flowPara
+         style="font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;font-family:'Liberation Sans';-inkscape-font-specification:'Liberation Sans'"
+         id="flowPara4636">system</flowPara></flowRoot>    <flowRoot
+       xml:space="preserve"
+       id="flowRoot3703-4"
+       style="font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;font-size:16px;line-height:125%;font-family:'Liberation Serif';-inkscape-font-specification:'Liberation Serif';text-align:center;letter-spacing:0px;word-spacing:0px;writing-mode:lr-tb;text-anchor:middle;fill:#000000;fill-opacity:1;stroke:none"
+       transform="matrix(0.61176147,0,0,0.59946121,235.76494,293.89838)"><flowRegion
+         id="flowRegion3705-3"><rect
+           id="rect3707-4"
+           width="225.56706"
+           height="70.003571"
+           x="-282.13559"
+           y="774.62787"
+           style="text-align:center;text-anchor:middle" /></flowRegion><flowPara
+         id="flowPara3711-3"
+         style="font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;font-family:'Liberation Sans';-inkscape-font-specification:'Liberation Sans'">Hjemmestyrings-</flowPara><flowPara
+         style="font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;font-family:'Liberation Sans';-inkscape-font-specification:'Liberation Sans'"
+         id="flowPara4644">system</flowPara></flowRoot>    <path
+       style="fill:none;stroke:#000000;stroke-width:3;stroke-linecap:butt;stroke-linejoin:miter;stroke-miterlimit:4;stroke-dasharray:6, 6;stroke-dashoffset:6.9000001;stroke-opacity:1"
+       d="m 548.71486,905.76841 c 0,0 -31.31621,0.0325 -39.33282,0 -5.51564,-6.23728 -8.9232,-6.16433 -14.67246,0 -7.30677,0 -40.74703,0 -40.74703,0 l 0,-62.22539 -46.66904,0"
+       id="path4610"
+       inkscape:connector-curvature="0"
+       sodipodi:nodetypes="cccccc" />
+    <text
+       xml:space="preserve"
+       style="color:#000000;font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;font-size:14px;line-height:125%;font-family:'Liberation Sans';-inkscape-font-specification:'Liberation Sans';text-align:start;letter-spacing:0px;word-spacing:0px;writing-mode:lr-tb;text-anchor:start;display:inline;overflow:visible;visibility:visible;fill:#000000;fill-opacity:1;fill-rule:nonzero;stroke:none;stroke-width:1px;stroke-linecap:butt;stroke-linejoin:miter;stroke-opacity:1;marker:none;enable-background:accumulate"
+       x="96"
+       y="83.361954"
+       id="text4626"
+       sodipodi:linespacing="125%"><tspan
+         sodipodi:role="line"
+         id="tspan4628"
+         x="96"
+         y="83.361954"
+         style="font-size:15px">PPT</tspan></text>
+    <g
+       id="g4695"
+       transform="matrix(0.86903421,0,0,0.86862769,351.68218,-42.286775)">
+      <g
+         transform="matrix(0.89128468,0,0,0.87295817,-462.76886,-89.17796)"
+         id="g4679">
+        <g
+           id="g4681">
+          <path
+             sodipodi:nodetypes="ccsccsssss"
+             inkscape:connector-curvature="0"
+             d="m 279.05382,245.47889 6.8e-4,30.93185 c 6.9e-4,3.52263 -10.12995,6.37187 -22.62673,6.37187 -12.49678,0 -22.62742,-2.84924 -22.62903,-6.37187 l -0.002,-31.27648 m 45.25481,0.38778 c 0,3.51472 -10.13064,6.36396 -22.62742,6.36396 -12.49678,0 -22.62742,-2.84924 -22.62742,-6.36396 0,-3.51472 10.13064,-6.36396 22.62742,-6.36396 12.49678,0 22.62742,2.84924 22.62742,6.36396 z"
+             style="color:#000000;display:inline;overflow:visible;visibility:visible;fill:#ffffff;fill-opacity:1;stroke:#000000;stroke-width:2.85057902;stroke-linecap:round;stroke-linejoin:miter;stroke-miterlimit:4;stroke-dashoffset:0;stroke-opacity:1;marker:none;enable-background:accumulate"
+             id="path4683" />
+        </g>
+      </g>
+      <flowRoot
+         xml:space="preserve"
+         id="flowRoot4685"
+         style="font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;font-size:16px;line-height:125%;font-family:'Liberation Sans';-inkscape-font-specification:'Liberation Sans';text-align:center;letter-spacing:0px;word-spacing:0px;writing-mode:lr-tb;text-anchor:middle;fill:#000000;fill-opacity:1;stroke:none"
+         transform="matrix(0.54357002,0,0,0.54357002,-313.03396,-103.47201)"><flowRegion
+           id="flowRegion4687"><rect
+             style="text-align:center;text-anchor:middle"
+             id="rect4689"
+             width="68.323853"
+             height="47.226688"
+             x="109.60155"
+             y="430.81534" /></flowRegion><flowPara
+           style="font-size:17.555439px"
+           id="flowPara4691">Data</flowPara><flowPara
+           style="font-size:17.555439px"
+           id="flowPara4693">lagring</flowPara></flowRoot>    </g>
+  </g>
+</svg>
