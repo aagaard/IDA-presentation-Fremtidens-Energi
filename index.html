@@ -40,16 +40,26 @@
     <div class="reveal">
       <div class="slides">
 
-        <section>
-		  <h1>Privacy i <br />Smart Grid</h1>
-		  <h2>
+        <section data-background="custom/img/background-privacy.jpg">
+		  <h2 style="color: white; font-size: 2.2em; font-weight: bold">
             Privatlivets håndhævelse i fremtidens energisystem med mange
 		    personlige data
           </h2>
+          <h6 style="color: white; margin-top: 4em;">IDA Konference - Fremtidens Energi</h6>
+          <h6 style="color: white;">den 22. september 2014</h6>
           <aside class="notes">
+            Tale om overskriften:
             <ul>
-              <li><u>Kom med historie</u></li>
-              <li>Hvad vil du præsentere?</li>
+              <li>Privatlivets håndhævelse = privacy eller data privacy</li>
+              <li>Fremtidens energisystem = smart grid</li>
+              <li>Personlige data = Ja, hvad er det?</li>
+            </ul>
+            Indhold i præsentationen:
+            <ul>
+              <li>Om mig og min motivation for at arbejde indenfor dette felt</li>
+              <li>Hvad forstår vi os på beskyttelsen af privatlivet i Smart Grid</li>
+              <li>Når vi designer en arkitektur for smart grid system for
+              indsamling af forbrugsdata, hvordan kan vi så sikre os at denne beskyttelse</li>
             </ul>
           </aside>
 	    </section>        
@@ -57,7 +67,6 @@
         
         <!-- Hvem er jeg -->
         <section>
-          <section>
             <h2>Hvem er jeg?</h2>
             
             <div class="row">
@@ -68,21 +77,29 @@
                 <img src="custom/img/about-me-me.png" />
               </div>
               <div class="col-md-5">
-                <p class="fragment">
-                  <img src="custom/img/about-me2.png" />
-                </p>
+                 <img src="custom/img/about-me2.png" />
               </div>
             </div>
-            <div class="fragment">
-              <p>
-                <span style="font-family: 'Roboto Condensed'">smik@eng.au.dk</span>
-              </p>
-              <p>
-                <img style="vertical-align: middle;" width="50px" src="custom/img/twitter_logo_blue.png"/>
-                <span style="font-family: 'Roboto Condensed'">@aamikkelsen</span>
-              </p>
-            </div>
-          </section>
+            <p>
+              <span style="font-family: 'Roboto Condensed'">smik@eng.au.dk</span>
+            </p>
+            <p>
+              <img style="vertical-align: middle;" width="50px" src="custom/img/twitter_logo_blue.png"/>
+              <span style="font-family: 'Roboto Condensed'">@aamikkelsen</span>
+            </p>
+            <aside class="notes">
+              <ul>
+                <li>Er på mit afsluttende år på ph.d. uddannelsen</li>
+                <li>Pt. er jeg på et udvekslingophold på det tekniske universitet KTH i Stockholm</li>
+                <ul>
+                  <li>FOF: For at dele viden, men også for at få indsigt i andre forskningsmiljøer</li>
+                </ul>
+                <li>Jeg interesserer mig specielt for privacy i Smart Grid</li>
+                <ul>
+                  <li>Specielt <b>forbruger</b>-privacy</li>
+                </ul>
+              </ul>
+            </aside>
         </section>
         
         <section>
@@ -94,13 +111,20 @@
               </h2>
             </div>
             <p style="font-style: italic;">
-              Energy Demand Aware Open Service for <br />Smart Grid Intelligent Automation
+              Energy Demand Aware Open Services for <br />Smart Grid Intelligent Automation
             </p>
             <ul style="margin-top: 1em;">
               <li>Konsortium: 11 partner fra 6 forskellige lande</li>
             </ul><p></p>
             <img src="custom/img/consortium.png" align="top">
+            <aside class="notes" data-markdown>
+              <ul>
+                <li>Del af EU's FP7 program</li>
+                <li>Started i 2012, og har en varighed på 3 år</li>
+              </ul>
+            </aside>
           </section>
+
           <section>
             <div style="display: block; vertical-align: middle;">
               <h2>
@@ -108,16 +132,16 @@
                 <span style="display:inline-block">SmartHG</span>
               </h2>
             </div>
-            <p class="align-left" style="font-size: 1.2em; font-weight: bold">Målsætning:</p>
+            <p class="align-left" style="font-size: 1.2em; font-weight: bold">Formål:</p>
             <ul>
               <li>At minimere <i>energiforbrug</i> og <i>omkostninger</i> i det enkelte hjem</li>
-              <li>At hjælpe netværksoperatører (distributører af el) med at <i>optimere</i> driften af elnettet</li>
+              <li>At hjælpe distributionssystemoperatøren (DSOen) med at <i>optimere</i> driften af elnettet</li>
             </ul>
             <div class="fragment">
-              <p class="align-left" style="font-size: 1.2em; font-weight: bold">Vores løsning indbefatter:</p>
+              <p class="align-left" style="font-size: 1.2em; font-weight: bold">Vores løsning:</p>
               <ul>
                 <li>Software til forbrugerne: Mindre forbrug, "optimeret" forbrug </li>
-                <li>Software til netværksoperatørerne: Analyse af forbrug, styring af elnettet</li>
+                <li>Software til DSO: Analyse af forbrug, styring af elnettet</li>
                 <li>Åbent system: Generer nyt market</li>
               </ul>
             </div>
@@ -125,50 +149,11 @@
         </section>
 
         <section>
-          <section>            
-            <h2>Det STORE spørgsmål</h2>
-            <p class="textbox">
-              Hvordan bygger vi et system der tillader at
-              distributionssystemoperatøren får indsigt i hjemmets elforbrug
-              uden at privatlivet af brugerne kompromitteres?
-            </p>
-            <aside class="notes" data-markdown>
-              * Formålet for DSO'en er at kunne bedre forudsige forbruget.
-            </aside>
-          </section>
-
-          
-          <section data-transition="none">
-            <h2>Afgrænsning</h2>
-            <img src="custom/img/actors.png" style=""/>
-          </section>
-          <section data-transition="none">
-            <h2>Afgrænsning</h2>
-            <img src="custom/img/actors_highlight.png" style=""/>
-          </section>
-        </section>
-
-        <section class="slides">
-          <h2>Hvad er beskyttelsen af privatlivet?</h2>
-          <ul>
-            <li>Retten til at være alene</li>
-            <li></li>
-          </ul>
-          
-          <div id="reference"><u>Referencer:</u>
-            Nissenbaum, H., Privacy As Contextual Integrity (2004), Solove, D. , A taxonomy of privacy (2006)
-          </div>
-          
-          <aside class="notes">
-            <p><b>Wiki:</b> Privatlivets fred er evnen for enkeltpersoner,
-              grupper eller institutioner til selv at bestemme, hvornår hvordan
-              og i hvilket omfang oplysninger om dem formidles til andre.</p>
-          </aside>
-        </section>
-
-        <section>
           <section>
-            <h2>Der er stigende fokus på beskyttelse af personlige data</h2>
+            <h2>Hvorfor er beskyttelsen af privatlivet vigtigt i Smart Grid sammenhæng?</h2>
+          </section>
+          <section>
+            <h2>Fordi der er et stigende mistillid til organisationer som indsamler og håndterer personlige data</h2>
             <aside class="notes">
               <ul>
                 <li>Med de mange tilfælde af krænkelser af privatlivet: </li>
@@ -180,35 +165,24 @@
                     <li>Robinsonsliste blev offentliggjort</li>                    
                   </ul>
                 </ul>
-                <li>Modstand mod udbreddelsen af Smart Grid</li>
-              </ul>
-              <p><b>Hvad er der galt her?</b></p>
-              <ul>
-                <li>Brugeren får godt nok mulighed at se, hvad for nogle data der tilgås</li>
-                <li><u>Men</u> ikke hvad formålet med dataindsamlingen er</li>
-                <li>Ingen granularitet af tilvalg</li>
-                <li>Man er tvunget til netop at bruge dette system ellers kan man
-                  ikke opnå den ønsket funktionalitet</li>
               </ul>
             </aside>
           </section>
+          
           <section>
-            <h2>Men ...</h2>
-            <img style="margin-top: -20px; height:auto;"
-                 src="custom/img/privacy-vs-really_want_that_service.png" />
-          </section>          
-        </section>
-
- 
-	    <section>
-          <section>
-            <h2>Hvorfor er beskyttelsen af privatlivet vigtigt i smart grid sammenhæng?
-            </h2>
+            <h2>Ja, ja..., men hvad har det med Smart Grid at gøre?</h2>
+            <aside class="notes">
+              <ul>
+                <li>For at vise et eksempel: Lad os tage forbrugsprofilen for
+                  en lejlighed </li>
+              </ul>
+            </aside>
           </section>
+          
           <section>
             <h3>Effektbelastningen i en lejlighed</h3>
             <img style="padding-right: 2em; max-height: 80%" src="./custom/img/power-profile-of-home.png" />
-            <div id="reference">Reference: Fan et al. (2013)</div>
+            <div id="reference">Kilde: Fan et al. (2013)</div>
             <aside class="notes">
               <div class="text-left">
                 <p>Effektprofil for en 1 værelseslejlighed med 30-sekundsopløsning</p>
@@ -223,42 +197,69 @@
                     <li>Ingen afvigelse af baseline-forbrug: Der er måske ingen hjemme?</li>
                   </ul>
                 </ul>
+                <ul>
+                  <li>Konsekvenser af beskyttelse af privatlivet i smart grid
+                  sammenhæng er stadige svær at forstå.
+                    <ol>
+                      <li>Antallet af muligheder for at udtrække information fra elbruget er stadigvæk ukendt.</li>
+                      <li>Forskning har vist bl.a. vist med en  </li>
+                    </ol>
+                </ul>
               </div>
             </aside>
           </section>
           <section>
             <h2>Hvem har interesse i disse forbrugsdata?</h2>
             <ul>
-              <li class="fragment">System operatørerne</li>
-              <li class="fragment">Indbrudstyve</li>
+              <li class="fragment">DSO'erne</li>
+              <li class="fragment">Tyve</li>
               <li class="fragment">"Nysgerrige naboer"</li>
-              <li class="fragment">Forsikringsselskaber&nbsp; &nbsp;</li>
-              <li class="fragment">Google<span class="fragment">... (eller Apple)</span></li>
-              <li class="fragment">...</li>
+              <li class="fragment">Forsikringsselskaber</li>
+              <li class="fragment">Annoncører<span class="fragment">... (eks. Google)</span></li>
             </ul>
             <aside class="notes">
-              <b>Fjendebilledet (adversary model)</b>
+              <ul>
+              <li>Øger modstanden mod udbreddelsen af Smart Grid</li>  
+              </ul>
             </aside>
           </section>
         </section>
-       
         
+        
+        <section>
+          <h3>
+            Hvordan bygger vi et system der tillader at
+            <span style="color: red">distributionssystemoperatøren</span> får <u><i>tilstrækkelig</i></u> indsigt i
+            hjemmets elforbrug uden at <u><i>privatlivet</i></u> af <span style="color: red">forbrugerne</span> kompromitteres?
+          </h3>
+          <aside class="notes">
+            <ul>
+              <li><u><i>Tilstrækkelig</i></u>: Formålet for DSO'en er at kunne kontrollere elnettet bedre</li>
+              <ul>
+                <li>Bl.a. ved at indsamle data for at bedre at kunne forudsige forbruget.</li>
+                <li>Være i stand til planlægge forbruget </li>
+              </ul>
+            </ul>
+          </aside>
+        </section>
+
         <section class="slides">
-          <h2>Hvad kan gøres for at forbedre håndhævelsen privatlivet?</h2>
+          <h2 style="font-size: 2em">Principper for system designer for håndhævelsen af privatlivet</h2>
           <ul>
             <li class="fragment">Lad forbrugeren vælge niveauet af "privathed"</li>            
             <li class="fragment">Definer formålet med dataindsamlingen for slutbrugerne</li>
             <li class="fragment">Minimere indhentning af personlige information</li>
             <li class="fragment">Lav systemet åben</li>
-            <li class="fragment">Sikring af privatlivet skal ikke komme på
+            <li class="fragment">Beskyttelse af privatlivet skal ikke komme på
               bekostning af funktionaliteten</li>
             <li class="fragment">Lav end-to-end sikkerhed i systemet</li>
           </ul>
-          <p id="reference"><u>Referencer</u>: Privacy-by-Design (PbD), &nbsp;&nbsp;
+          <p id="reference"><u>Kilde:</u> Privacy-by-Design (PbD)
 
           </p>
           <aside class="notes">
             <ul>
+              <li>Best afford principper... Kvalitetsattributer</li>
               <li>Giv folk værktøjer til at styre deres information</li>
               <li>Folk har forskellige behov</li>
               <ul>
@@ -271,22 +272,45 @@
             </ul>
           </aside>
         </section>
-        
-        <section>
-          <section>          
-            <h2>Arkitekturer til datahåndtering</h2>
-          </section>
 
+          <!-- <section data-transition="none">
+          <h2>Afgrænsning</h2>
+          <img src="custom/img/actors.png" style=""/>
+          </section>
+          <section data-transition="none">
+          <h2>Afgrænsning</h2>
+          <img src="custom/img/actors_highlight.png" style=""/>
+          </section>
+          </section> -->
+
+        <!-- <section class="slides">
+        <h2>Hvad er beskyttelsen af privatlivet?</h2>
+        <ul>
+        <li>Retten til at være alene</li>
+        <li></li>
+        </ul>
+        
+        <div id="reference"><u>Kilde:</u>
+        Nissenbaum, H., Privacy As Contextual Integrity (2004), Solove, D. , A taxonomy of privacy (2006)
+        </div>
+        
+        <aside class="notes">
+        <p><b>Wiki:</b> Privatlivets fred er evnen for enkeltpersoner,
+        grupper eller institutioner til selv at bestemme, hvornår hvordan
+        og i hvilket omfang oplysninger om dem formidles til andre.</p>
+        </aside>
+        </section> -->
+        
+
+        <section>
           <section>
-            <h2>Model 1: Tingene's Internet</h2>
+            <h3>System arkitektur i SmartHG projektet</h3>
+            <img src="custom/img/system_model.png"/>
+          </section>
+          <section>
             <img src="custom/img/system_model1.png"/>
           </section>
           <section>
-            <h2>Model 2: Privat sky</h2>
-            <img src="custom/img/system_model2.png"/>
-          </section>
-          <section>
-            <h2>Model 3: Hybrid</h2>
             <img src="custom/img/system_model3.png"/>
           </section>
         </section>
@@ -294,9 +318,11 @@
         <section>
           <h2>Opsummering</h2>
           <ul>
-            
+            <li>Usikkert hvad privacy konsekvenserne er for dataindsamlingen for Smart Grid</li>
             <li>Behov er forskelligt - også et i Smart Grid</li>
-            <li>Data skabes til evighed</li>
+            <ul>
+              <li>Brugerne skal have flexiblitet i forhold til datahåndteringen</li>
+            </ul>
           </ul>
           <aside class="notes">
             <ul>
@@ -306,6 +332,12 @@
               </ul>              
             </ul>
           </aside>
+        </section>
+
+        <section>
+          <h3>Tak... spørgsmål?</h3>
+          <img style="margin-top: -20px; height:auto;"
+                 src="custom/img/privacy-vs-really_want_that_service.png" />
         </section>
       </div>
     </div>
