@@ -81,6 +81,13 @@ p.textbox {
 .slides ul li {
   margin-bottom: 0.4em;
 }
+.slides ol.small {
+  font-size: 0.6em;
+  line-height: 1.5em;
+}
+.slides ol li {
+  margin-bottom: 0.4em;
+}
 #reference {
   font-size: 0.6em;
   position: fixed;

@@ -21,7 +21,9 @@
 
     <!-- favicon and fonts -->
     <link href="img/favicon.png" rel="shortcut icon" />
-    <link href='http://fonts.googleapis.com/css?family=Roboto:400,500,700,900,400italic,500italic|Roboto+Condensed:400italic,400,700' rel='stylesheet' type='text/css'>
+    <link href='http://fonts.googleapis.com/css?family=Roboto:400,500,700,900,400italic,500italic|Roboto+Condensed:400italic,400,700'
+          rel='stylesheet'
+          type='text/css'>
     
     <title>Privatlivets håndhævelse i fremtidens energisystem med mange personlige data</title>
     
@@ -117,7 +119,8 @@
               <li>Konsortium: 11 partner fra 6 forskellige lande</li>
             </ul><p></p>
             <img src="custom/img/consortium.png" align="top">
-            <aside class="notes" data-markdown>
+
+            <aside class="notes">
               <ul>
                 <li>Del af EU's FP7 program</li>
                 <li>Started i 2012, og har en varighed på 3 år</li>
@@ -140,9 +143,9 @@
             <div class="fragment">
               <p class="align-left" style="font-size: 1.2em; font-weight: bold">Vores løsning:</p>
               <ul>
-                <li>Software til forbrugerne: Mindre forbrug, "optimeret" forbrug </li>
-                <li>Software til DSO: Analyse af forbrug, styring af elnettet</li>
-                <li>Åbent system: Generer nyt market</li>
+                <li>Services til forbrugerne: Mindre forbrug, "optimeret" forbrug</li>
+                <li>Services til DSOen: Analyse af forbrug, styring af elnettet</li>
+                <li>Åbent system: Generer nyt market for serviceudbydere</li>
               </ul>
             </div>
           </section>
@@ -150,16 +153,28 @@
 
         <section>
           <section>
-            <h2>Hvorfor er beskyttelsen af privatlivet vigtigt i Smart Grid sammenhæng?</h2>
+            <h2>Hvorfor er beskyttelsen af privatlivet vigtigt i forbindelse
+            med udrulningen af<br /> Smart Grid?</h2>
           </section>
           <section>
-            <h2>Fordi der er et stigende mistillid til organisationer som indsamler og håndterer personlige data</h2>
+            <h2>Der er et stigende mistillid til organisationer som indsamler
+            og håndterer personlige data</h2>
+            <div class="row">
+              <!-- <div class="col-md-4 fragment">
+              <img style="width:80%" src="custom/img/Edward_Snowden.jpg"/>
+              </div> -->
+              <div class="col-md-6 fragment">
+                <img src="custom/img/kreditkort.jpg" />
+              </div>
+              <div class="col-md-6 fragment">
+                <img src="custom/img/CPR.jpg" />
+              </div>
+            </div>
             <aside class="notes">
               <ul>
-                <li>Med de mange tilfælde af krænkelser af privatlivet: </li>
                 <ul>
                   <li>Udlandet: NSA - Showden, masseovervågning</li>
-                  <li>Indland: Se og Hør skandalen (foretrækker Nets skandalen)</li>
+                  <li>Indland: Se og Hør skandalen (foretrækker Nets-skandalen)</li>
                   <li>Dårlig håndteringen af CPR numre (900.000 offentliggjorte CPR-numre i Økonomi- og Indenrigsministeriet)</li>
                   <ul>
                     <li>Robinsonsliste blev offentliggjort</li>                    
@@ -170,7 +185,7 @@
           </section>
           
           <section>
-            <h2>Ja, ja..., men hvad har det med Smart Grid at gøre?</h2>
+            <h2>Men hvad har det med Smart Grid at gøre?...</h2>
             <aside class="notes">
               <ul>
                 <li>For at vise et eksempel: Lad os tage forbrugsprofilen for
@@ -201,8 +216,10 @@
                   <li>Konsekvenser af beskyttelse af privatlivet i smart grid
                   sammenhæng er stadige svær at forstå.
                     <ol>
-                      <li>Antallet af muligheder for at udtrække information fra elbruget er stadigvæk ukendt.</li>
-                      <li>Forskning har vist bl.a. vist med en  </li>
+                      <li>Antallet af muligheder for at udtrække information
+                      fra elbruget er stadigvæk ukendt.</li>
+                      <li>Forskning: sample-rate: 0.5s$^{-1}$, CRT, Plasma, LCD
+                      med dynamic bg. belysning </li>
                     </ol>
                 </ul>
               </div>
@@ -210,13 +227,16 @@
           </section>
           <section>
             <h2>Hvem har interesse i disse forbrugsdata?</h2>
-            <ul>
-              <li class="fragment">DSO'erne</li>
-              <li class="fragment">Tyve</li>
-              <li class="fragment">"Nysgerrige naboer"</li>
-              <li class="fragment">Forsikringsselskaber</li>
-              <li class="fragment">Annoncører<span class="fragment">... (eks. Google)</span></li>
-            </ul>
+            <div>
+              <ul>
+                <li class="fragment">DSO'erne</li>
+                <li class="fragment">Tyve</li>
+                <li class="fragment">"Nysgerrige naboer"</li>
+                <li class="fragment">Forsikringsselskaber</li>
+                <li class="fragment">Annoncører (eks. Google)</li>
+                <li class="fragment">...</li>
+              </ul>
+            </div> 
             <aside class="notes">
               <ul>
               <li>Øger modstanden mod udbreddelsen af Smart Grid</li>  
@@ -243,18 +263,24 @@
           </aside>
         </section>
 
+        <section>
+          <h2>Årlig besparelse baseret på indsigt i forbrugsdata</h2>
+          <img width="65%" src="custom/img/savings_vs_samlingfreq.jpg" />
+          <p id="reference">Kilde: Carrie Armel, K. (2012)</p>
+        </section>
+
         <section class="slides">
-          <h2 style="font-size: 2em">Principper for system designer for håndhævelsen af privatlivet</h2>
+          <h2 style="font-size: 2em">Principper til system designere for håndhævelsen af privatlivet</h2>
           <ul>
             <li class="fragment">Lad forbrugeren vælge niveauet af "privathed"</li>            
             <li class="fragment">Definer formålet med dataindsamlingen for slutbrugerne</li>
             <li class="fragment">Minimere indhentning af personlige information</li>
-            <li class="fragment">Lav systemet åben</li>
+            <li class="fragment">Lav systemet åbent</li>
             <li class="fragment">Beskyttelse af privatlivet skal ikke komme på
               bekostning af funktionaliteten</li>
             <li class="fragment">Lav end-to-end sikkerhed i systemet</li>
           </ul>
-          <p id="reference"><u>Kilde:</u> Privacy-by-Design (PbD)
+          <p id="reference">Kilder: OECD, NIST, Privacy-by-Design (PbD)
 
           </p>
           <aside class="notes">
@@ -338,6 +364,17 @@
           <h3>Tak... spørgsmål?</h3>
           <img style="margin-top: -20px; height:auto;"
                  src="custom/img/privacy-vs-really_want_that_service.png" />
+        </section>
+
+        <section class="slides">
+          <h2>Spørgsmål til diskussion</h2>
+          <ol style="line-height: 150%;">
+            <li>Hvem ejer forbrugsdataene opsamlet af hovedmåleren?</li>
+            <li>Skal forbrugeren have mulighed for at melde sig ud af smart
+            grid konceptet?</li>
+            <li>Har forbrugeren ret til at vide, hvem DSO'en dele forbrugsdataene med?</li>
+            <li>Hvad for nogle forbrugsdata skal forbrugeren og serviceudbyderne have adgang til?</li>
+          </ol>
         </section>
       </div>
     </div>
